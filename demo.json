@@ -1,0 +1,3374 @@
+{
+  "from": {
+    "score": null,
+    "coordinate": {
+      "x": 47.500855,
+      "y": 8.544987,
+      "type": "WGS84"
+    },
+    "distance": null,
+    "name": "Bachenbülach, Schmiede",
+    "id": "8573206"
+  },
+  "to": {
+    "score": null,
+    "coordinate": {
+      "x": 47.500332,
+      "y": 8.723795,
+      "type": "WGS84"
+    },
+    "distance": null,
+    "name": "Winterthur",
+    "id": "8506000"
+  },
+  "stations": {
+    "from": [
+      {
+        "score": null,
+        "coordinate": {
+          "x": 47.500855,
+          "y": 8.544987,
+          "type": "WGS84"
+        },
+        "distance": null,
+        "name": "Bachenbülach, Schmiede",
+        "id": "8573206"
+      }
+    ],
+    "to": [
+      {
+        "score": null,
+        "coordinate": {
+          "x": 47.500332,
+          "y": 8.723795,
+          "type": "WGS84"
+        },
+        "distance": null,
+        "name": "Winterthur",
+        "id": "8506000"
+      }
+    ]
+  },
+  "connections": [
+    {
+      "duration": "00d00:33:00",
+      "transfers": 1,
+      "service": null,
+      "capacity2nd": null,
+      "from": {
+        "arrivalTimestamp": null,
+        "delay": null,
+        "arrival": null,
+        "departureTimestamp": 1513621260,
+        "station": {
+          "score": null,
+          "coordinate": {
+            "x": 47.500855,
+            "y": 8.544987,
+            "type": "WGS84"
+          },
+          "distance": null,
+          "name": "Bachenbülach, Schmiede",
+          "id": "8573206"
+        },
+        "location": {
+          "score": null,
+          "coordinate": {
+            "x": 47.500855,
+            "y": 8.544987,
+            "type": "WGS84"
+          },
+          "distance": null,
+          "name": "Bachenbülach, Schmiede",
+          "id": "8573206"
+        },
+        "departure": "2017-12-18T19:21:00+0100",
+        "realtimeAvailability": null,
+        "prognosis": {
+          "arrival": null,
+          "capacity2nd": null,
+          "departure": null,
+          "platform": null,
+          "capacity1st": null
+        },
+        "platform": null
+      },
+      "to": {
+        "arrivalTimestamp": 1513623240,
+        "delay": null,
+        "arrival": "2017-12-18T19:54:00+0100",
+        "departureTimestamp": null,
+        "station": {
+          "score": null,
+          "coordinate": {
+            "x": 47.500332,
+            "y": 8.723795,
+            "type": "WGS84"
+          },
+          "distance": null,
+          "name": "Winterthur",
+          "id": "8506000"
+        },
+        "location": {
+          "score": null,
+          "coordinate": {
+            "x": 47.500332,
+            "y": 8.723795,
+            "type": "WGS84"
+          },
+          "distance": null,
+          "name": "Winterthur",
+          "id": "8506000"
+        },
+        "departure": null,
+        "realtimeAvailability": null,
+        "prognosis": {
+          "arrival": null,
+          "capacity2nd": null,
+          "departure": null,
+          "platform": null,
+          "capacity1st": null
+        },
+        "platform": "4"
+      },
+      "sections": [
+        {
+          "journey": {
+            "number": "531",
+            "name": "BUS 1538",
+            "passList": [
+              {
+                "arrivalTimestamp": null,
+                "delay": null,
+                "arrival": null,
+                "departureTimestamp": 1513621260,
+                "station": {
+                  "score": null,
+                  "coordinate": {
+                    "x": 47.500855,
+                    "y": 8.544987,
+                    "type": "WGS84"
+                  },
+                  "distance": null,
+                  "name": "Bachenbülach, Schmiede",
+                  "id": "8573206"
+                },
+                "location": {
+                  "score": null,
+                  "coordinate": {
+                    "x": 47.500855,
+                    "y": 8.544987,
+                    "type": "WGS84"
+                  },
+                  "distance": null,
+                  "name": "Bachenbülach, Schmiede",
+                  "id": "8573206"
+                },
+                "departure": "2017-12-18T19:21:00+0100",
+                "realtimeAvailability": null,
+                "prognosis": {
+                  "arrival": null,
+                  "capacity2nd": null,
+                  "departure": null,
+                  "platform": null,
+                  "capacity1st": null
+                },
+                "platform": null
+              },
+              {
+                "arrivalTimestamp": 1513621380,
+                "delay": null,
+                "arrival": "2017-12-18T19:23:00+0100",
+                "departureTimestamp": 1513621380,
+                "station": {
+                  "score": null,
+                  "coordinate": {
+                    "x": 47.505254,
+                    "y": 8.545968,
+                    "type": "WGS84"
+                  },
+                  "distance": null,
+                  "name": "Bachenbülach, alte Post",
+                  "id": "8503781"
+                },
+                "location": {
+                  "score": null,
+                  "coordinate": {
+                    "x": 47.505254,
+                    "y": 8.545968,
+                    "type": "WGS84"
+                  },
+                  "distance": null,
+                  "name": "Bachenbülach, alte Post",
+                  "id": "8503781"
+                },
+                "departure": "2017-12-18T19:23:00+0100",
+                "realtimeAvailability": null,
+                "prognosis": {
+                  "arrival": null,
+                  "capacity2nd": null,
+                  "departure": null,
+                  "platform": null,
+                  "capacity1st": null
+                },
+                "platform": null
+              },
+              {
+                "arrivalTimestamp": 1513621380,
+                "delay": null,
+                "arrival": "2017-12-18T19:23:00+0100",
+                "departureTimestamp": 1513621380,
+                "station": {
+                  "score": null,
+                  "coordinate": {
+                    "x": 47.5099,
+                    "y": 8.544538,
+                    "type": "WGS84"
+                  },
+                  "distance": null,
+                  "name": "Bülach, Cholplatz",
+                  "id": "8582739"
+                },
+                "location": {
+                  "score": null,
+                  "coordinate": {
+                    "x": 47.5099,
+                    "y": 8.544538,
+                    "type": "WGS84"
+                  },
+                  "distance": null,
+                  "name": "Bülach, Cholplatz",
+                  "id": "8582739"
+                },
+                "departure": "2017-12-18T19:23:00+0100",
+                "realtimeAvailability": null,
+                "prognosis": {
+                  "arrival": null,
+                  "capacity2nd": null,
+                  "departure": null,
+                  "platform": null,
+                  "capacity1st": null
+                },
+                "platform": null
+              },
+              {
+                "arrivalTimestamp": 1513621440,
+                "delay": null,
+                "arrival": "2017-12-18T19:24:00+0100",
+                "departureTimestamp": 1513621440,
+                "station": {
+                  "score": null,
+                  "coordinate": {
+                    "x": 47.512473,
+                    "y": 8.543463,
+                    "type": "WGS84"
+                  },
+                  "distance": null,
+                  "name": "Bülach, Mettmenriet",
+                  "id": "8503772"
+                },
+                "location": {
+                  "score": null,
+                  "coordinate": {
+                    "x": 47.512473,
+                    "y": 8.543463,
+                    "type": "WGS84"
+                  },
+                  "distance": null,
+                  "name": "Bülach, Mettmenriet",
+                  "id": "8503772"
+                },
+                "departure": "2017-12-18T19:24:00+0100",
+                "realtimeAvailability": null,
+                "prognosis": {
+                  "arrival": null,
+                  "capacity2nd": null,
+                  "departure": null,
+                  "platform": null,
+                  "capacity1st": null
+                },
+                "platform": null
+              },
+              {
+                "arrivalTimestamp": 1513621560,
+                "delay": null,
+                "arrival": "2017-12-18T19:26:00+0100",
+                "departureTimestamp": 1513621560,
+                "station": {
+                  "score": null,
+                  "coordinate": {
+                    "x": 47.515861,
+                    "y": 8.541874,
+                    "type": "WGS84"
+                  },
+                  "distance": null,
+                  "name": "Bülach, Untertor",
+                  "id": "8503850"
+                },
+                "location": {
+                  "score": null,
+                  "coordinate": {
+                    "x": 47.515861,
+                    "y": 8.541874,
+                    "type": "WGS84"
+                  },
+                  "distance": null,
+                  "name": "Bülach, Untertor",
+                  "id": "8503850"
+                },
+                "departure": "2017-12-18T19:26:00+0100",
+                "realtimeAvailability": null,
+                "prognosis": {
+                  "arrival": null,
+                  "capacity2nd": null,
+                  "departure": null,
+                  "platform": null,
+                  "capacity1st": null
+                },
+                "platform": null
+              },
+              {
+                "arrivalTimestamp": 1513621680,
+                "delay": null,
+                "arrival": "2017-12-18T19:28:00+0100",
+                "departureTimestamp": 1513621680,
+                "station": {
+                  "score": null,
+                  "coordinate": {
+                    "x": 47.520605,
+                    "y": 8.539649,
+                    "type": "WGS84"
+                  },
+                  "distance": null,
+                  "name": "Bülach, Sonnenhof",
+                  "id": "8573257"
+                },
+                "location": {
+                  "score": null,
+                  "coordinate": {
+                    "x": 47.520605,
+                    "y": 8.539649,
+                    "type": "WGS84"
+                  },
+                  "distance": null,
+                  "name": "Bülach, Sonnenhof",
+                  "id": "8573257"
+                },
+                "departure": "2017-12-18T19:28:00+0100",
+                "realtimeAvailability": null,
+                "prognosis": {
+                  "arrival": null,
+                  "capacity2nd": null,
+                  "departure": null,
+                  "platform": null,
+                  "capacity1st": null
+                },
+                "platform": null
+              },
+              {
+                "arrivalTimestamp": 1513621800,
+                "delay": null,
+                "arrival": "2017-12-18T19:30:00+0100",
+                "departureTimestamp": null,
+                "station": {
+                  "score": null,
+                  "coordinate": {
+                    "x": 47.522647,
+                    "y": 8.537699,
+                    "type": "WGS84"
+                  },
+                  "distance": null,
+                  "name": "Bülach, Bahnhof",
+                  "id": "8503702"
+                },
+                "location": {
+                  "score": null,
+                  "coordinate": {
+                    "x": 47.522647,
+                    "y": 8.537699,
+                    "type": "WGS84"
+                  },
+                  "distance": null,
+                  "name": "Bülach, Bahnhof",
+                  "id": "8503702"
+                },
+                "departure": null,
+                "realtimeAvailability": null,
+                "prognosis": {
+                  "arrival": null,
+                  "capacity2nd": null,
+                  "departure": null,
+                  "platform": null,
+                  "capacity1st": null
+                },
+                "platform": null
+              }
+            ],
+            "capacity2nd": null,
+            "categoryCode": null,
+            "to": "Bülach, Bahnhof",
+            "category": "BUS",
+            "subcategory": null,
+            "operator": "PAG",
+            "capacity1st": null
+          },
+          "arrival": {
+            "arrivalTimestamp": 1513621800,
+            "delay": null,
+            "arrival": "2017-12-18T19:30:00+0100",
+            "departureTimestamp": null,
+            "station": {
+              "score": null,
+              "coordinate": {
+                "x": 47.522647,
+                "y": 8.537699,
+                "type": "WGS84"
+              },
+              "distance": null,
+              "name": "Bülach, Bahnhof",
+              "id": "8503702"
+            },
+            "location": {
+              "score": null,
+              "coordinate": {
+                "x": 47.522647,
+                "y": 8.537699,
+                "type": "WGS84"
+              },
+              "distance": null,
+              "name": "Bülach, Bahnhof",
+              "id": "8503702"
+            },
+            "departure": null,
+            "realtimeAvailability": null,
+            "prognosis": {
+              "arrival": null,
+              "capacity2nd": null,
+              "departure": null,
+              "platform": null,
+              "capacity1st": null
+            },
+            "platform": null
+          },
+          "departure": {
+            "arrivalTimestamp": null,
+            "delay": null,
+            "arrival": null,
+            "departureTimestamp": 1513621260,
+            "station": {
+              "score": null,
+              "coordinate": {
+                "x": 47.500855,
+                "y": 8.544987,
+                "type": "WGS84"
+              },
+              "distance": null,
+              "name": "Bachenbülach, Schmiede",
+              "id": "8573206"
+            },
+            "location": {
+              "score": null,
+              "coordinate": {
+                "x": 47.500855,
+                "y": 8.544987,
+                "type": "WGS84"
+              },
+              "distance": null,
+              "name": "Bachenbülach, Schmiede",
+              "id": "8573206"
+            },
+            "departure": "2017-12-18T19:21:00+0100",
+            "realtimeAvailability": null,
+            "prognosis": {
+              "arrival": null,
+              "capacity2nd": null,
+              "departure": null,
+              "platform": null,
+              "capacity1st": null
+            },
+            "platform": null
+          },
+          "walk": null
+        },
+        {
+          "journey": null,
+          "arrival": {
+            "arrivalTimestamp": 1513622100,
+            "delay": null,
+            "arrival": "2017-12-18T19:35:00+0100",
+            "departureTimestamp": null,
+            "station": {
+              "score": null,
+              "coordinate": {
+                "x": 47.523939,
+                "y": 8.536186,
+                "type": "WGS84"
+              },
+              "distance": null,
+              "name": "Bülach",
+              "id": "8503400"
+            },
+            "location": {
+              "score": null,
+              "coordinate": {
+                "x": 47.523939,
+                "y": 8.536186,
+                "type": "WGS84"
+              },
+              "distance": null,
+              "name": "Bülach",
+              "id": "8503400"
+            },
+            "departure": null,
+            "realtimeAvailability": null,
+            "prognosis": {
+              "arrival": null,
+              "capacity2nd": null,
+              "departure": null,
+              "platform": null,
+              "capacity1st": null
+            },
+            "platform": null
+          },
+          "departure": {
+            "arrivalTimestamp": 1513621800,
+            "delay": null,
+            "arrival": "2017-12-18T19:30:00+0100",
+            "departureTimestamp": 1513621800,
+            "station": {
+              "score": null,
+              "coordinate": {
+                "x": 47.522647,
+                "y": 8.537699,
+                "type": "WGS84"
+              },
+              "distance": null,
+              "name": "Bülach, Bahnhof",
+              "id": "8503702"
+            },
+            "location": {
+              "score": null,
+              "coordinate": {
+                "x": 47.522647,
+                "y": 8.537699,
+                "type": "WGS84"
+              },
+              "distance": null,
+              "name": "Bülach, Bahnhof",
+              "id": "8503702"
+            },
+            "departure": "2017-12-18T19:30:00+0100",
+            "realtimeAvailability": null,
+            "prognosis": {
+              "arrival": null,
+              "capacity2nd": null,
+              "departure": null,
+              "platform": null,
+              "capacity1st": null
+            },
+            "platform": null
+          },
+          "walk": {
+            "duration": 300
+          }
+        },
+        {
+          "journey": {
+            "number": "41",
+            "name": "S41 19875",
+            "passList": [
+              {
+                "arrivalTimestamp": 1513622100,
+                "delay": null,
+                "arrival": "2017-12-18T19:35:00+0100",
+                "departureTimestamp": 1513622100,
+                "station": {
+                  "score": null,
+                  "coordinate": {
+                    "x": 47.523939,
+                    "y": 8.536186,
+                    "type": "WGS84"
+                  },
+                  "distance": null,
+                  "name": "Bülach",
+                  "id": "8503400"
+                },
+                "location": {
+                  "score": null,
+                  "coordinate": {
+                    "x": 47.523939,
+                    "y": 8.536186,
+                    "type": "WGS84"
+                  },
+                  "distance": null,
+                  "name": "Bülach",
+                  "id": "8503400"
+                },
+                "departure": "2017-12-18T19:35:00+0100",
+                "realtimeAvailability": null,
+                "prognosis": {
+                  "arrival": null,
+                  "capacity2nd": null,
+                  "departure": null,
+                  "platform": null,
+                  "capacity1st": null
+                },
+                "platform": "4"
+              },
+              {
+                "arrivalTimestamp": 1513622280,
+                "delay": null,
+                "arrival": "2017-12-18T19:38:00+0100",
+                "departureTimestamp": 1513622340,
+                "station": {
+                  "score": null,
+                  "coordinate": {
+                    "x": 47.520586,
+                    "y": 8.587052,
+                    "type": "WGS84"
+                  },
+                  "distance": null,
+                  "name": "Embrach-Rorbas",
+                  "id": "8506041"
+                },
+                "location": {
+                  "score": null,
+                  "coordinate": {
+                    "x": 47.520586,
+                    "y": 8.587052,
+                    "type": "WGS84"
+                  },
+                  "distance": null,
+                  "name": "Embrach-Rorbas",
+                  "id": "8506041"
+                },
+                "departure": "2017-12-18T19:39:00+0100",
+                "realtimeAvailability": null,
+                "prognosis": {
+                  "arrival": null,
+                  "capacity2nd": null,
+                  "departure": null,
+                  "platform": null,
+                  "capacity1st": null
+                },
+                "platform": null
+              },
+              {
+                "arrivalTimestamp": 1513622580,
+                "delay": null,
+                "arrival": "2017-12-18T19:43:00+0100",
+                "departureTimestamp": 1513622700,
+                "station": {
+                  "score": null,
+                  "coordinate": {
+                    "x": 47.516031,
+                    "y": 8.646608,
+                    "type": "WGS84"
+                  },
+                  "distance": null,
+                  "name": "Pfungen",
+                  "id": "8506042"
+                },
+                "location": {
+                  "score": null,
+                  "coordinate": {
+                    "x": 47.516031,
+                    "y": 8.646608,
+                    "type": "WGS84"
+                  },
+                  "distance": null,
+                  "name": "Pfungen",
+                  "id": "8506042"
+                },
+                "departure": "2017-12-18T19:45:00+0100",
+                "realtimeAvailability": null,
+                "prognosis": {
+                  "arrival": null,
+                  "capacity2nd": null,
+                  "departure": null,
+                  "platform": null,
+                  "capacity1st": null
+                },
+                "platform": null
+              },
+              {
+                "arrivalTimestamp": 1513622820,
+                "delay": null,
+                "arrival": "2017-12-18T19:47:00+0100",
+                "departureTimestamp": 1513622820,
+                "station": {
+                  "score": null,
+                  "coordinate": {
+                    "x": 47.506431,
+                    "y": 8.680905,
+                    "type": "WGS84"
+                  },
+                  "distance": null,
+                  "name": "Winterthur Wülflingen",
+                  "id": "8506043"
+                },
+                "location": {
+                  "score": null,
+                  "coordinate": {
+                    "x": 47.506431,
+                    "y": 8.680905,
+                    "type": "WGS84"
+                  },
+                  "distance": null,
+                  "name": "Winterthur Wülflingen",
+                  "id": "8506043"
+                },
+                "departure": "2017-12-18T19:47:00+0100",
+                "realtimeAvailability": null,
+                "prognosis": {
+                  "arrival": null,
+                  "capacity2nd": null,
+                  "departure": null,
+                  "platform": null,
+                  "capacity1st": null
+                },
+                "platform": null
+              },
+              {
+                "arrivalTimestamp": 1513623060,
+                "delay": null,
+                "arrival": "2017-12-18T19:51:00+0100",
+                "departureTimestamp": 1513623060,
+                "station": {
+                  "score": null,
+                  "coordinate": {
+                    "x": 47.489805,
+                    "y": 8.709288,
+                    "type": "WGS84"
+                  },
+                  "distance": null,
+                  "name": "Winterthur Töss",
+                  "id": "8506044"
+                },
+                "location": {
+                  "score": null,
+                  "coordinate": {
+                    "x": 47.489805,
+                    "y": 8.709288,
+                    "type": "WGS84"
+                  },
+                  "distance": null,
+                  "name": "Winterthur Töss",
+                  "id": "8506044"
+                },
+                "departure": "2017-12-18T19:51:00+0100",
+                "realtimeAvailability": null,
+                "prognosis": {
+                  "arrival": null,
+                  "capacity2nd": null,
+                  "departure": null,
+                  "platform": null,
+                  "capacity1st": null
+                },
+                "platform": null
+              },
+              {
+                "arrivalTimestamp": 1513623240,
+                "delay": null,
+                "arrival": "2017-12-18T19:54:00+0100",
+                "departureTimestamp": null,
+                "station": {
+                  "score": null,
+                  "coordinate": {
+                    "x": 47.500332,
+                    "y": 8.723795,
+                    "type": "WGS84"
+                  },
+                  "distance": null,
+                  "name": "Winterthur",
+                  "id": "8506000"
+                },
+                "location": {
+                  "score": null,
+                  "coordinate": {
+                    "x": 47.500332,
+                    "y": 8.723795,
+                    "type": "WGS84"
+                  },
+                  "distance": null,
+                  "name": "Winterthur",
+                  "id": "8506000"
+                },
+                "departure": null,
+                "realtimeAvailability": null,
+                "prognosis": {
+                  "arrival": null,
+                  "capacity2nd": null,
+                  "departure": null,
+                  "platform": null,
+                  "capacity1st": null
+                },
+                "platform": "9"
+              }
+            ],
+            "capacity2nd": null,
+            "categoryCode": null,
+            "to": "Winterthur",
+            "category": "S",
+            "subcategory": null,
+            "operator": "THURBO",
+            "capacity1st": null
+          },
+          "arrival": {
+            "arrivalTimestamp": 1513623240,
+            "delay": null,
+            "arrival": "2017-12-18T19:54:00+0100",
+            "departureTimestamp": null,
+            "station": {
+              "score": null,
+              "coordinate": {
+                "x": 47.500332,
+                "y": 8.723795,
+                "type": "WGS84"
+              },
+              "distance": null,
+              "name": "Winterthur",
+              "id": "8506000"
+            },
+            "location": {
+              "score": null,
+              "coordinate": {
+                "x": 47.500332,
+                "y": 8.723795,
+                "type": "WGS84"
+              },
+              "distance": null,
+              "name": "Winterthur",
+              "id": "8506000"
+            },
+            "departure": null,
+            "realtimeAvailability": null,
+            "prognosis": {
+              "arrival": null,
+              "capacity2nd": null,
+              "departure": null,
+              "platform": null,
+              "capacity1st": null
+            },
+            "platform": "9"
+          },
+          "departure": {
+            "arrivalTimestamp": 1513622100,
+            "delay": null,
+            "arrival": "2017-12-18T19:35:00+0100",
+            "departureTimestamp": 1513622100,
+            "station": {
+              "score": null,
+              "coordinate": {
+                "x": 47.523939,
+                "y": 8.536186,
+                "type": "WGS84"
+              },
+              "distance": null,
+              "name": "Bülach",
+              "id": "8503400"
+            },
+            "location": {
+              "score": null,
+              "coordinate": {
+                "x": 47.523939,
+                "y": 8.536186,
+                "type": "WGS84"
+              },
+              "distance": null,
+              "name": "Bülach",
+              "id": "8503400"
+            },
+            "departure": "2017-12-18T19:35:00+0100",
+            "realtimeAvailability": null,
+            "prognosis": {
+              "arrival": null,
+              "capacity2nd": null,
+              "departure": null,
+              "platform": null,
+              "capacity1st": null
+            },
+            "platform": "4"
+          },
+          "walk": null
+        }
+      ],
+      "products": [
+        "531",
+        "S41"
+      ],
+      "capacity1st": null
+    },
+    {
+      "duration": "00d00:39:00",
+      "transfers": 1,
+      "service": null,
+      "capacity2nd": null,
+      "from": {
+        "arrivalTimestamp": null,
+        "delay": null,
+        "arrival": null,
+        "departureTimestamp": 1513622220,
+        "station": {
+          "score": null,
+          "coordinate": {
+            "x": 47.500855,
+            "y": 8.544987,
+            "type": "WGS84"
+          },
+          "distance": null,
+          "name": "Bachenbülach, Schmiede",
+          "id": "8573206"
+        },
+        "location": {
+          "score": null,
+          "coordinate": {
+            "x": 47.500855,
+            "y": 8.544987,
+            "type": "WGS84"
+          },
+          "distance": null,
+          "name": "Bachenbülach, Schmiede",
+          "id": "8573206"
+        },
+        "departure": "2017-12-18T19:37:00+0100",
+        "realtimeAvailability": null,
+        "prognosis": {
+          "arrival": null,
+          "capacity2nd": null,
+          "departure": null,
+          "platform": null,
+          "capacity1st": null
+        },
+        "platform": null
+      },
+      "to": {
+        "arrivalTimestamp": 1513624560,
+        "delay": null,
+        "arrival": "2017-12-18T20:16:00+0100",
+        "departureTimestamp": null,
+        "station": {
+          "score": null,
+          "coordinate": {
+            "x": 47.500332,
+            "y": 8.723795,
+            "type": "WGS84"
+          },
+          "distance": null,
+          "name": "Winterthur",
+          "id": "8506000"
+        },
+        "location": {
+          "score": null,
+          "coordinate": {
+            "x": 47.500332,
+            "y": 8.723795,
+            "type": "WGS84"
+          },
+          "distance": null,
+          "name": "Winterthur",
+          "id": "8506000"
+        },
+        "departure": null,
+        "realtimeAvailability": null,
+        "prognosis": {
+          "arrival": null,
+          "capacity2nd": null,
+          "departure": null,
+          "platform": null,
+          "capacity1st": null
+        },
+        "platform": "2"
+      },
+      "sections": [
+        {
+          "journey": {
+            "number": "531",
+            "name": "BUS 5503",
+            "passList": [
+              {
+                "arrivalTimestamp": null,
+                "delay": null,
+                "arrival": null,
+                "departureTimestamp": 1513622220,
+                "station": {
+                  "score": null,
+                  "coordinate": {
+                    "x": 47.500855,
+                    "y": 8.544987,
+                    "type": "WGS84"
+                  },
+                  "distance": null,
+                  "name": "Bachenbülach, Schmiede",
+                  "id": "8573206"
+                },
+                "location": {
+                  "score": null,
+                  "coordinate": {
+                    "x": 47.500855,
+                    "y": 8.544987,
+                    "type": "WGS84"
+                  },
+                  "distance": null,
+                  "name": "Bachenbülach, Schmiede",
+                  "id": "8573206"
+                },
+                "departure": "2017-12-18T19:37:00+0100",
+                "realtimeAvailability": null,
+                "prognosis": {
+                  "arrival": null,
+                  "capacity2nd": null,
+                  "departure": null,
+                  "platform": null,
+                  "capacity1st": null
+                },
+                "platform": null
+              },
+              {
+                "arrivalTimestamp": 1513622280,
+                "delay": null,
+                "arrival": "2017-12-18T19:38:00+0100",
+                "departureTimestamp": 1513622280,
+                "station": {
+                  "score": null,
+                  "coordinate": {
+                    "x": 47.496941,
+                    "y": 8.545132,
+                    "type": "WGS84"
+                  },
+                  "distance": null,
+                  "name": "Winkel, Scheidweg",
+                  "id": "8573207"
+                },
+                "location": {
+                  "score": null,
+                  "coordinate": {
+                    "x": 47.496941,
+                    "y": 8.545132,
+                    "type": "WGS84"
+                  },
+                  "distance": null,
+                  "name": "Winkel, Scheidweg",
+                  "id": "8573207"
+                },
+                "departure": "2017-12-18T19:38:00+0100",
+                "realtimeAvailability": null,
+                "prognosis": {
+                  "arrival": null,
+                  "capacity2nd": null,
+                  "departure": null,
+                  "platform": null,
+                  "capacity1st": null
+                },
+                "platform": null
+              },
+              {
+                "arrivalTimestamp": 1513622340,
+                "delay": null,
+                "arrival": "2017-12-18T19:39:00+0100",
+                "departureTimestamp": 1513622340,
+                "station": {
+                  "score": null,
+                  "coordinate": {
+                    "x": 47.492415,
+                    "y": 8.547188,
+                    "type": "WGS84"
+                  },
+                  "distance": null,
+                  "name": "Winkel, Seebüel",
+                  "id": "8583774"
+                },
+                "location": {
+                  "score": null,
+                  "coordinate": {
+                    "x": 47.492415,
+                    "y": 8.547188,
+                    "type": "WGS84"
+                  },
+                  "distance": null,
+                  "name": "Winkel, Seebüel",
+                  "id": "8583774"
+                },
+                "departure": "2017-12-18T19:39:00+0100",
+                "realtimeAvailability": null,
+                "prognosis": {
+                  "arrival": null,
+                  "capacity2nd": null,
+                  "departure": null,
+                  "platform": null,
+                  "capacity1st": null
+                },
+                "platform": null
+              },
+              {
+                "arrivalTimestamp": 1513622460,
+                "delay": null,
+                "arrival": "2017-12-18T19:41:00+0100",
+                "departureTimestamp": 1513622460,
+                "station": {
+                  "score": null,
+                  "coordinate": {
+                    "x": 47.479274,
+                    "y": 8.553747,
+                    "type": "WGS84"
+                  },
+                  "distance": null,
+                  "name": "Winkel, Wisental",
+                  "id": "8583775"
+                },
+                "location": {
+                  "score": null,
+                  "coordinate": {
+                    "x": 47.479274,
+                    "y": 8.553747,
+                    "type": "WGS84"
+                  },
+                  "distance": null,
+                  "name": "Winkel, Wisental",
+                  "id": "8583775"
+                },
+                "departure": "2017-12-18T19:41:00+0100",
+                "realtimeAvailability": null,
+                "prognosis": {
+                  "arrival": null,
+                  "capacity2nd": null,
+                  "departure": null,
+                  "platform": null,
+                  "capacity1st": null
+                },
+                "platform": null
+              },
+              {
+                "arrivalTimestamp": 1513622760,
+                "delay": null,
+                "arrival": "2017-12-18T19:46:00+0100",
+                "departureTimestamp": 1513622760,
+                "station": {
+                  "score": null,
+                  "coordinate": {
+                    "x": 47.452489,
+                    "y": 8.572057,
+                    "type": "WGS84"
+                  },
+                  "distance": null,
+                  "name": "Zürich Flughafen, Fracht",
+                  "id": "8588553"
+                },
+                "location": {
+                  "score": null,
+                  "coordinate": {
+                    "x": 47.452489,
+                    "y": 8.572057,
+                    "type": "WGS84"
+                  },
+                  "distance": null,
+                  "name": "Zürich Flughafen, Fracht",
+                  "id": "8588553"
+                },
+                "departure": "2017-12-18T19:46:00+0100",
+                "realtimeAvailability": null,
+                "prognosis": {
+                  "arrival": null,
+                  "capacity2nd": null,
+                  "departure": null,
+                  "platform": null,
+                  "capacity1st": null
+                },
+                "platform": null
+              },
+              {
+                "arrivalTimestamp": 1513622880,
+                "delay": null,
+                "arrival": "2017-12-18T19:48:00+0100",
+                "departureTimestamp": 1513622880,
+                "station": {
+                  "score": null,
+                  "coordinate": {
+                    "x": 47.45265,
+                    "y": 8.565655,
+                    "type": "WGS84"
+                  },
+                  "distance": null,
+                  "name": "Zürich Flughafen, OPC",
+                  "id": "8580301"
+                },
+                "location": {
+                  "score": null,
+                  "coordinate": {
+                    "x": 47.45265,
+                    "y": 8.565655,
+                    "type": "WGS84"
+                  },
+                  "distance": null,
+                  "name": "Zürich Flughafen, OPC",
+                  "id": "8580301"
+                },
+                "departure": "2017-12-18T19:48:00+0100",
+                "realtimeAvailability": null,
+                "prognosis": {
+                  "arrival": null,
+                  "capacity2nd": null,
+                  "departure": null,
+                  "platform": null,
+                  "capacity1st": null
+                },
+                "platform": null
+              },
+              {
+                "arrivalTimestamp": 1513623000,
+                "delay": null,
+                "arrival": "2017-12-18T19:50:00+0100",
+                "departureTimestamp": null,
+                "station": {
+                  "score": null,
+                  "coordinate": {
+                    "x": 47.450438,
+                    "y": 8.563725,
+                    "type": "WGS84"
+                  },
+                  "distance": null,
+                  "name": "Zürich Flughafen, Bahnhof",
+                  "id": "8573205"
+                },
+                "location": {
+                  "score": null,
+                  "coordinate": {
+                    "x": 47.450438,
+                    "y": 8.563725,
+                    "type": "WGS84"
+                  },
+                  "distance": null,
+                  "name": "Zürich Flughafen, Bahnhof",
+                  "id": "8573205"
+                },
+                "departure": null,
+                "realtimeAvailability": null,
+                "prognosis": {
+                  "arrival": null,
+                  "capacity2nd": null,
+                  "departure": null,
+                  "platform": null,
+                  "capacity1st": null
+                },
+                "platform": null
+              }
+            ],
+            "capacity2nd": null,
+            "categoryCode": null,
+            "to": "Zürich Flughafen, Bahnhof",
+            "category": "BUS",
+            "subcategory": null,
+            "operator": "PAG",
+            "capacity1st": null
+          },
+          "arrival": {
+            "arrivalTimestamp": 1513623000,
+            "delay": null,
+            "arrival": "2017-12-18T19:50:00+0100",
+            "departureTimestamp": null,
+            "station": {
+              "score": null,
+              "coordinate": {
+                "x": 47.450438,
+                "y": 8.563725,
+                "type": "WGS84"
+              },
+              "distance": null,
+              "name": "Zürich Flughafen, Bahnhof",
+              "id": "8573205"
+            },
+            "location": {
+              "score": null,
+              "coordinate": {
+                "x": 47.450438,
+                "y": 8.563725,
+                "type": "WGS84"
+              },
+              "distance": null,
+              "name": "Zürich Flughafen, Bahnhof",
+              "id": "8573205"
+            },
+            "departure": null,
+            "realtimeAvailability": null,
+            "prognosis": {
+              "arrival": null,
+              "capacity2nd": null,
+              "departure": null,
+              "platform": null,
+              "capacity1st": null
+            },
+            "platform": null
+          },
+          "departure": {
+            "arrivalTimestamp": null,
+            "delay": null,
+            "arrival": null,
+            "departureTimestamp": 1513622220,
+            "station": {
+              "score": null,
+              "coordinate": {
+                "x": 47.500855,
+                "y": 8.544987,
+                "type": "WGS84"
+              },
+              "distance": null,
+              "name": "Bachenbülach, Schmiede",
+              "id": "8573206"
+            },
+            "location": {
+              "score": null,
+              "coordinate": {
+                "x": 47.500855,
+                "y": 8.544987,
+                "type": "WGS84"
+              },
+              "distance": null,
+              "name": "Bachenbülach, Schmiede",
+              "id": "8573206"
+            },
+            "departure": "2017-12-18T19:37:00+0100",
+            "realtimeAvailability": null,
+            "prognosis": {
+              "arrival": null,
+              "capacity2nd": null,
+              "departure": null,
+              "platform": null,
+              "capacity1st": null
+            },
+            "platform": null
+          },
+          "walk": null
+        },
+        {
+          "journey": null,
+          "arrival": {
+            "arrivalTimestamp": 1513623360,
+            "delay": null,
+            "arrival": "2017-12-18T19:56:00+0100",
+            "departureTimestamp": null,
+            "station": {
+              "score": null,
+              "coordinate": {
+                "x": 47.450379,
+                "y": 8.562384,
+                "type": "WGS84"
+              },
+              "distance": null,
+              "name": "Zürich Flughafen",
+              "id": "8503016"
+            },
+            "location": {
+              "score": null,
+              "coordinate": {
+                "x": 47.450379,
+                "y": 8.562384,
+                "type": "WGS84"
+              },
+              "distance": null,
+              "name": "Zürich Flughafen",
+              "id": "8503016"
+            },
+            "departure": null,
+            "realtimeAvailability": null,
+            "prognosis": {
+              "arrival": null,
+              "capacity2nd": null,
+              "departure": null,
+              "platform": null,
+              "capacity1st": null
+            },
+            "platform": null
+          },
+          "departure": {
+            "arrivalTimestamp": 1513623000,
+            "delay": null,
+            "arrival": "2017-12-18T19:50:00+0100",
+            "departureTimestamp": 1513623000,
+            "station": {
+              "score": null,
+              "coordinate": {
+                "x": 47.450438,
+                "y": 8.563725,
+                "type": "WGS84"
+              },
+              "distance": null,
+              "name": "Zürich Flughafen, Bahnhof",
+              "id": "8573205"
+            },
+            "location": {
+              "score": null,
+              "coordinate": {
+                "x": 47.450438,
+                "y": 8.563725,
+                "type": "WGS84"
+              },
+              "distance": null,
+              "name": "Zürich Flughafen, Bahnhof",
+              "id": "8573205"
+            },
+            "departure": "2017-12-18T19:50:00+0100",
+            "realtimeAvailability": null,
+            "prognosis": {
+              "arrival": null,
+              "capacity2nd": null,
+              "departure": null,
+              "platform": null,
+              "capacity1st": null
+            },
+            "platform": null
+          },
+          "walk": {
+            "duration": 360
+          }
+        },
+        {
+          "journey": {
+            "number": "24",
+            "name": "S24 20474",
+            "passList": [
+              {
+                "arrivalTimestamp": 1513623360,
+                "delay": 0,
+                "arrival": "2017-12-18T19:56:00+0100",
+                "departureTimestamp": 1513623420,
+                "station": {
+                  "score": null,
+                  "coordinate": {
+                    "x": 47.450379,
+                    "y": 8.562384,
+                    "type": "WGS84"
+                  },
+                  "distance": null,
+                  "name": "Zürich Flughafen",
+                  "id": "8503016"
+                },
+                "location": {
+                  "score": null,
+                  "coordinate": {
+                    "x": 47.450379,
+                    "y": 8.562384,
+                    "type": "WGS84"
+                  },
+                  "distance": null,
+                  "name": "Zürich Flughafen",
+                  "id": "8503016"
+                },
+                "departure": "2017-12-18T19:57:00+0100",
+                "realtimeAvailability": null,
+                "prognosis": {
+                  "arrival": null,
+                  "capacity2nd": null,
+                  "departure": "2017-12-18T19:57:00+0100",
+                  "platform": null,
+                  "capacity1st": null
+                },
+                "platform": "2"
+              },
+              {
+                "arrivalTimestamp": 1513623600,
+                "delay": 2,
+                "arrival": "2017-12-18T20:00:00+0100",
+                "departureTimestamp": 1513623600,
+                "station": {
+                  "score": null,
+                  "coordinate": {
+                    "x": 47.438535,
+                    "y": 8.626077,
+                    "type": "WGS84"
+                  },
+                  "distance": null,
+                  "name": "Bassersdorf",
+                  "id": "8503307"
+                },
+                "location": {
+                  "score": null,
+                  "coordinate": {
+                    "x": 47.438535,
+                    "y": 8.626077,
+                    "type": "WGS84"
+                  },
+                  "distance": null,
+                  "name": "Bassersdorf",
+                  "id": "8503307"
+                },
+                "departure": "2017-12-18T20:00:00+0100",
+                "realtimeAvailability": null,
+                "prognosis": {
+                  "arrival": null,
+                  "capacity2nd": null,
+                  "departure": "2017-12-18T20:02:00+0100",
+                  "platform": null,
+                  "capacity1st": null
+                },
+                "platform": null
+              },
+              {
+                "arrivalTimestamp": 1513624020,
+                "delay": 0,
+                "arrival": "2017-12-18T20:07:00+0100",
+                "departureTimestamp": 1513624140,
+                "station": {
+                  "score": null,
+                  "coordinate": {
+                    "x": 47.425808,
+                    "y": 8.68666,
+                    "type": "WGS84"
+                  },
+                  "distance": null,
+                  "name": "Effretikon",
+                  "id": "8503305"
+                },
+                "location": {
+                  "score": null,
+                  "coordinate": {
+                    "x": 47.425808,
+                    "y": 8.68666,
+                    "type": "WGS84"
+                  },
+                  "distance": null,
+                  "name": "Effretikon",
+                  "id": "8503305"
+                },
+                "departure": "2017-12-18T20:09:00+0100",
+                "realtimeAvailability": null,
+                "prognosis": {
+                  "arrival": null,
+                  "capacity2nd": null,
+                  "departure": "2017-12-18T20:09:00+0100",
+                  "platform": null,
+                  "capacity1st": null
+                },
+                "platform": null
+              },
+              {
+                "arrivalTimestamp": 1513624560,
+                "delay": 0,
+                "arrival": "2017-12-18T20:16:00+0100",
+                "departureTimestamp": null,
+                "station": {
+                  "score": null,
+                  "coordinate": {
+                    "x": 47.500332,
+                    "y": 8.723795,
+                    "type": "WGS84"
+                  },
+                  "distance": null,
+                  "name": "Winterthur",
+                  "id": "8506000"
+                },
+                "location": {
+                  "score": null,
+                  "coordinate": {
+                    "x": 47.500332,
+                    "y": 8.723795,
+                    "type": "WGS84"
+                  },
+                  "distance": null,
+                  "name": "Winterthur",
+                  "id": "8506000"
+                },
+                "departure": null,
+                "realtimeAvailability": null,
+                "prognosis": {
+                  "arrival": "2017-12-18T20:16:00+0100",
+                  "capacity2nd": null,
+                  "departure": null,
+                  "platform": null,
+                  "capacity1st": null
+                },
+                "platform": "6"
+              }
+            ],
+            "capacity2nd": null,
+            "categoryCode": null,
+            "to": "Schaffhausen",
+            "category": "S",
+            "subcategory": null,
+            "operator": "SBB",
+            "capacity1st": null
+          },
+          "arrival": {
+            "arrivalTimestamp": 1513624560,
+            "delay": 0,
+            "arrival": "2017-12-18T20:16:00+0100",
+            "departureTimestamp": null,
+            "station": {
+              "score": null,
+              "coordinate": {
+                "x": 47.500332,
+                "y": 8.723795,
+                "type": "WGS84"
+              },
+              "distance": null,
+              "name": "Winterthur",
+              "id": "8506000"
+            },
+            "location": {
+              "score": null,
+              "coordinate": {
+                "x": 47.500332,
+                "y": 8.723795,
+                "type": "WGS84"
+              },
+              "distance": null,
+              "name": "Winterthur",
+              "id": "8506000"
+            },
+            "departure": null,
+            "realtimeAvailability": null,
+            "prognosis": {
+              "arrival": "2017-12-18T20:16:00+0100",
+              "capacity2nd": null,
+              "departure": null,
+              "platform": null,
+              "capacity1st": null
+            },
+            "platform": "6"
+          },
+          "departure": {
+            "arrivalTimestamp": 1513623360,
+            "delay": 0,
+            "arrival": "2017-12-18T19:56:00+0100",
+            "departureTimestamp": 1513623420,
+            "station": {
+              "score": null,
+              "coordinate": {
+                "x": 47.450379,
+                "y": 8.562384,
+                "type": "WGS84"
+              },
+              "distance": null,
+              "name": "Zürich Flughafen",
+              "id": "8503016"
+            },
+            "location": {
+              "score": null,
+              "coordinate": {
+                "x": 47.450379,
+                "y": 8.562384,
+                "type": "WGS84"
+              },
+              "distance": null,
+              "name": "Zürich Flughafen",
+              "id": "8503016"
+            },
+            "departure": "2017-12-18T19:57:00+0100",
+            "realtimeAvailability": null,
+            "prognosis": {
+              "arrival": null,
+              "capacity2nd": null,
+              "departure": "2017-12-18T19:57:00+0100",
+              "platform": null,
+              "capacity1st": null
+            },
+            "platform": "2"
+          },
+          "walk": null
+        }
+      ],
+      "products": [
+        "531",
+        "S24"
+      ],
+      "capacity1st": null
+    },
+    {
+      "duration": "00d00:33:00",
+      "transfers": 1,
+      "service": null,
+      "capacity2nd": null,
+      "from": {
+        "arrivalTimestamp": null,
+        "delay": null,
+        "arrival": null,
+        "departureTimestamp": 1513623060,
+        "station": {
+          "score": null,
+          "coordinate": {
+            "x": 47.500855,
+            "y": 8.544987,
+            "type": "WGS84"
+          },
+          "distance": null,
+          "name": "Bachenbülach, Schmiede",
+          "id": "8573206"
+        },
+        "location": {
+          "score": null,
+          "coordinate": {
+            "x": 47.500855,
+            "y": 8.544987,
+            "type": "WGS84"
+          },
+          "distance": null,
+          "name": "Bachenbülach, Schmiede",
+          "id": "8573206"
+        },
+        "departure": "2017-12-18T19:51:00+0100",
+        "realtimeAvailability": null,
+        "prognosis": {
+          "arrival": null,
+          "capacity2nd": null,
+          "departure": null,
+          "platform": null,
+          "capacity1st": null
+        },
+        "platform": null
+      },
+      "to": {
+        "arrivalTimestamp": 1513625040,
+        "delay": null,
+        "arrival": "2017-12-18T20:24:00+0100",
+        "departureTimestamp": null,
+        "station": {
+          "score": null,
+          "coordinate": {
+            "x": 47.500332,
+            "y": 8.723795,
+            "type": "WGS84"
+          },
+          "distance": null,
+          "name": "Winterthur",
+          "id": "8506000"
+        },
+        "location": {
+          "score": null,
+          "coordinate": {
+            "x": 47.500332,
+            "y": 8.723795,
+            "type": "WGS84"
+          },
+          "distance": null,
+          "name": "Winterthur",
+          "id": "8506000"
+        },
+        "departure": null,
+        "realtimeAvailability": null,
+        "prognosis": {
+          "arrival": null,
+          "capacity2nd": null,
+          "departure": null,
+          "platform": null,
+          "capacity1st": null
+        },
+        "platform": "6"
+      },
+      "sections": [
+        {
+          "journey": {
+            "number": "531",
+            "name": "BUS 1522",
+            "passList": [
+              {
+                "arrivalTimestamp": null,
+                "delay": null,
+                "arrival": null,
+                "departureTimestamp": 1513623060,
+                "station": {
+                  "score": null,
+                  "coordinate": {
+                    "x": 47.500855,
+                    "y": 8.544987,
+                    "type": "WGS84"
+                  },
+                  "distance": null,
+                  "name": "Bachenbülach, Schmiede",
+                  "id": "8573206"
+                },
+                "location": {
+                  "score": null,
+                  "coordinate": {
+                    "x": 47.500855,
+                    "y": 8.544987,
+                    "type": "WGS84"
+                  },
+                  "distance": null,
+                  "name": "Bachenbülach, Schmiede",
+                  "id": "8573206"
+                },
+                "departure": "2017-12-18T19:51:00+0100",
+                "realtimeAvailability": null,
+                "prognosis": {
+                  "arrival": null,
+                  "capacity2nd": null,
+                  "departure": null,
+                  "platform": null,
+                  "capacity1st": null
+                },
+                "platform": null
+              },
+              {
+                "arrivalTimestamp": 1513623180,
+                "delay": null,
+                "arrival": "2017-12-18T19:53:00+0100",
+                "departureTimestamp": 1513623180,
+                "station": {
+                  "score": null,
+                  "coordinate": {
+                    "x": 47.505254,
+                    "y": 8.545968,
+                    "type": "WGS84"
+                  },
+                  "distance": null,
+                  "name": "Bachenbülach, alte Post",
+                  "id": "8503781"
+                },
+                "location": {
+                  "score": null,
+                  "coordinate": {
+                    "x": 47.505254,
+                    "y": 8.545968,
+                    "type": "WGS84"
+                  },
+                  "distance": null,
+                  "name": "Bachenbülach, alte Post",
+                  "id": "8503781"
+                },
+                "departure": "2017-12-18T19:53:00+0100",
+                "realtimeAvailability": null,
+                "prognosis": {
+                  "arrival": null,
+                  "capacity2nd": null,
+                  "departure": null,
+                  "platform": null,
+                  "capacity1st": null
+                },
+                "platform": null
+              },
+              {
+                "arrivalTimestamp": 1513623180,
+                "delay": null,
+                "arrival": "2017-12-18T19:53:00+0100",
+                "departureTimestamp": 1513623180,
+                "station": {
+                  "score": null,
+                  "coordinate": {
+                    "x": 47.5099,
+                    "y": 8.544538,
+                    "type": "WGS84"
+                  },
+                  "distance": null,
+                  "name": "Bülach, Cholplatz",
+                  "id": "8582739"
+                },
+                "location": {
+                  "score": null,
+                  "coordinate": {
+                    "x": 47.5099,
+                    "y": 8.544538,
+                    "type": "WGS84"
+                  },
+                  "distance": null,
+                  "name": "Bülach, Cholplatz",
+                  "id": "8582739"
+                },
+                "departure": "2017-12-18T19:53:00+0100",
+                "realtimeAvailability": null,
+                "prognosis": {
+                  "arrival": null,
+                  "capacity2nd": null,
+                  "departure": null,
+                  "platform": null,
+                  "capacity1st": null
+                },
+                "platform": null
+              },
+              {
+                "arrivalTimestamp": 1513623240,
+                "delay": null,
+                "arrival": "2017-12-18T19:54:00+0100",
+                "departureTimestamp": 1513623240,
+                "station": {
+                  "score": null,
+                  "coordinate": {
+                    "x": 47.512473,
+                    "y": 8.543463,
+                    "type": "WGS84"
+                  },
+                  "distance": null,
+                  "name": "Bülach, Mettmenriet",
+                  "id": "8503772"
+                },
+                "location": {
+                  "score": null,
+                  "coordinate": {
+                    "x": 47.512473,
+                    "y": 8.543463,
+                    "type": "WGS84"
+                  },
+                  "distance": null,
+                  "name": "Bülach, Mettmenriet",
+                  "id": "8503772"
+                },
+                "departure": "2017-12-18T19:54:00+0100",
+                "realtimeAvailability": null,
+                "prognosis": {
+                  "arrival": null,
+                  "capacity2nd": null,
+                  "departure": null,
+                  "platform": null,
+                  "capacity1st": null
+                },
+                "platform": null
+              },
+              {
+                "arrivalTimestamp": 1513623360,
+                "delay": null,
+                "arrival": "2017-12-18T19:56:00+0100",
+                "departureTimestamp": 1513623360,
+                "station": {
+                  "score": null,
+                  "coordinate": {
+                    "x": 47.515861,
+                    "y": 8.541874,
+                    "type": "WGS84"
+                  },
+                  "distance": null,
+                  "name": "Bülach, Untertor",
+                  "id": "8503850"
+                },
+                "location": {
+                  "score": null,
+                  "coordinate": {
+                    "x": 47.515861,
+                    "y": 8.541874,
+                    "type": "WGS84"
+                  },
+                  "distance": null,
+                  "name": "Bülach, Untertor",
+                  "id": "8503850"
+                },
+                "departure": "2017-12-18T19:56:00+0100",
+                "realtimeAvailability": null,
+                "prognosis": {
+                  "arrival": null,
+                  "capacity2nd": null,
+                  "departure": null,
+                  "platform": null,
+                  "capacity1st": null
+                },
+                "platform": null
+              },
+              {
+                "arrivalTimestamp": 1513623480,
+                "delay": null,
+                "arrival": "2017-12-18T19:58:00+0100",
+                "departureTimestamp": 1513623480,
+                "station": {
+                  "score": null,
+                  "coordinate": {
+                    "x": 47.520605,
+                    "y": 8.539649,
+                    "type": "WGS84"
+                  },
+                  "distance": null,
+                  "name": "Bülach, Sonnenhof",
+                  "id": "8573257"
+                },
+                "location": {
+                  "score": null,
+                  "coordinate": {
+                    "x": 47.520605,
+                    "y": 8.539649,
+                    "type": "WGS84"
+                  },
+                  "distance": null,
+                  "name": "Bülach, Sonnenhof",
+                  "id": "8573257"
+                },
+                "departure": "2017-12-18T19:58:00+0100",
+                "realtimeAvailability": null,
+                "prognosis": {
+                  "arrival": null,
+                  "capacity2nd": null,
+                  "departure": null,
+                  "platform": null,
+                  "capacity1st": null
+                },
+                "platform": null
+              },
+              {
+                "arrivalTimestamp": 1513623600,
+                "delay": null,
+                "arrival": "2017-12-18T20:00:00+0100",
+                "departureTimestamp": null,
+                "station": {
+                  "score": null,
+                  "coordinate": {
+                    "x": 47.522647,
+                    "y": 8.537699,
+                    "type": "WGS84"
+                  },
+                  "distance": null,
+                  "name": "Bülach, Bahnhof",
+                  "id": "8503702"
+                },
+                "location": {
+                  "score": null,
+                  "coordinate": {
+                    "x": 47.522647,
+                    "y": 8.537699,
+                    "type": "WGS84"
+                  },
+                  "distance": null,
+                  "name": "Bülach, Bahnhof",
+                  "id": "8503702"
+                },
+                "departure": null,
+                "realtimeAvailability": null,
+                "prognosis": {
+                  "arrival": null,
+                  "capacity2nd": null,
+                  "departure": null,
+                  "platform": null,
+                  "capacity1st": null
+                },
+                "platform": null
+              }
+            ],
+            "capacity2nd": null,
+            "categoryCode": null,
+            "to": "Bülach, Bahnhof",
+            "category": "BUS",
+            "subcategory": null,
+            "operator": "PAG",
+            "capacity1st": null
+          },
+          "arrival": {
+            "arrivalTimestamp": 1513623600,
+            "delay": null,
+            "arrival": "2017-12-18T20:00:00+0100",
+            "departureTimestamp": null,
+            "station": {
+              "score": null,
+              "coordinate": {
+                "x": 47.522647,
+                "y": 8.537699,
+                "type": "WGS84"
+              },
+              "distance": null,
+              "name": "Bülach, Bahnhof",
+              "id": "8503702"
+            },
+            "location": {
+              "score": null,
+              "coordinate": {
+                "x": 47.522647,
+                "y": 8.537699,
+                "type": "WGS84"
+              },
+              "distance": null,
+              "name": "Bülach, Bahnhof",
+              "id": "8503702"
+            },
+            "departure": null,
+            "realtimeAvailability": null,
+            "prognosis": {
+              "arrival": null,
+              "capacity2nd": null,
+              "departure": null,
+              "platform": null,
+              "capacity1st": null
+            },
+            "platform": null
+          },
+          "departure": {
+            "arrivalTimestamp": null,
+            "delay": null,
+            "arrival": null,
+            "departureTimestamp": 1513623060,
+            "station": {
+              "score": null,
+              "coordinate": {
+                "x": 47.500855,
+                "y": 8.544987,
+                "type": "WGS84"
+              },
+              "distance": null,
+              "name": "Bachenbülach, Schmiede",
+              "id": "8573206"
+            },
+            "location": {
+              "score": null,
+              "coordinate": {
+                "x": 47.500855,
+                "y": 8.544987,
+                "type": "WGS84"
+              },
+              "distance": null,
+              "name": "Bachenbülach, Schmiede",
+              "id": "8573206"
+            },
+            "departure": "2017-12-18T19:51:00+0100",
+            "realtimeAvailability": null,
+            "prognosis": {
+              "arrival": null,
+              "capacity2nd": null,
+              "departure": null,
+              "platform": null,
+              "capacity1st": null
+            },
+            "platform": null
+          },
+          "walk": null
+        },
+        {
+          "journey": null,
+          "arrival": {
+            "arrivalTimestamp": 1513623900,
+            "delay": null,
+            "arrival": "2017-12-18T20:05:00+0100",
+            "departureTimestamp": null,
+            "station": {
+              "score": null,
+              "coordinate": {
+                "x": 47.523939,
+                "y": 8.536186,
+                "type": "WGS84"
+              },
+              "distance": null,
+              "name": "Bülach",
+              "id": "8503400"
+            },
+            "location": {
+              "score": null,
+              "coordinate": {
+                "x": 47.523939,
+                "y": 8.536186,
+                "type": "WGS84"
+              },
+              "distance": null,
+              "name": "Bülach",
+              "id": "8503400"
+            },
+            "departure": null,
+            "realtimeAvailability": null,
+            "prognosis": {
+              "arrival": null,
+              "capacity2nd": null,
+              "departure": null,
+              "platform": null,
+              "capacity1st": null
+            },
+            "platform": null
+          },
+          "departure": {
+            "arrivalTimestamp": 1513623600,
+            "delay": null,
+            "arrival": "2017-12-18T20:00:00+0100",
+            "departureTimestamp": 1513623600,
+            "station": {
+              "score": null,
+              "coordinate": {
+                "x": 47.522647,
+                "y": 8.537699,
+                "type": "WGS84"
+              },
+              "distance": null,
+              "name": "Bülach, Bahnhof",
+              "id": "8503702"
+            },
+            "location": {
+              "score": null,
+              "coordinate": {
+                "x": 47.522647,
+                "y": 8.537699,
+                "type": "WGS84"
+              },
+              "distance": null,
+              "name": "Bülach, Bahnhof",
+              "id": "8503702"
+            },
+            "departure": "2017-12-18T20:00:00+0100",
+            "realtimeAvailability": null,
+            "prognosis": {
+              "arrival": null,
+              "capacity2nd": null,
+              "departure": null,
+              "platform": null,
+              "capacity1st": null
+            },
+            "platform": null
+          },
+          "walk": {
+            "duration": 300
+          }
+        },
+        {
+          "journey": {
+            "number": "41",
+            "name": "S41 19877",
+            "passList": [
+              {
+                "arrivalTimestamp": 1513623900,
+                "delay": null,
+                "arrival": "2017-12-18T20:05:00+0100",
+                "departureTimestamp": 1513623900,
+                "station": {
+                  "score": null,
+                  "coordinate": {
+                    "x": 47.523939,
+                    "y": 8.536186,
+                    "type": "WGS84"
+                  },
+                  "distance": null,
+                  "name": "Bülach",
+                  "id": "8503400"
+                },
+                "location": {
+                  "score": null,
+                  "coordinate": {
+                    "x": 47.523939,
+                    "y": 8.536186,
+                    "type": "WGS84"
+                  },
+                  "distance": null,
+                  "name": "Bülach",
+                  "id": "8503400"
+                },
+                "departure": "2017-12-18T20:05:00+0100",
+                "realtimeAvailability": null,
+                "prognosis": {
+                  "arrival": null,
+                  "capacity2nd": null,
+                  "departure": null,
+                  "platform": null,
+                  "capacity1st": null
+                },
+                "platform": "6"
+              },
+              {
+                "arrivalTimestamp": 1513624080,
+                "delay": null,
+                "arrival": "2017-12-18T20:08:00+0100",
+                "departureTimestamp": 1513624140,
+                "station": {
+                  "score": null,
+                  "coordinate": {
+                    "x": 47.520586,
+                    "y": 8.587052,
+                    "type": "WGS84"
+                  },
+                  "distance": null,
+                  "name": "Embrach-Rorbas",
+                  "id": "8506041"
+                },
+                "location": {
+                  "score": null,
+                  "coordinate": {
+                    "x": 47.520586,
+                    "y": 8.587052,
+                    "type": "WGS84"
+                  },
+                  "distance": null,
+                  "name": "Embrach-Rorbas",
+                  "id": "8506041"
+                },
+                "departure": "2017-12-18T20:09:00+0100",
+                "realtimeAvailability": null,
+                "prognosis": {
+                  "arrival": null,
+                  "capacity2nd": null,
+                  "departure": null,
+                  "platform": null,
+                  "capacity1st": null
+                },
+                "platform": null
+              },
+              {
+                "arrivalTimestamp": 1513624380,
+                "delay": null,
+                "arrival": "2017-12-18T20:13:00+0100",
+                "departureTimestamp": 1513624500,
+                "station": {
+                  "score": null,
+                  "coordinate": {
+                    "x": 47.516031,
+                    "y": 8.646608,
+                    "type": "WGS84"
+                  },
+                  "distance": null,
+                  "name": "Pfungen",
+                  "id": "8506042"
+                },
+                "location": {
+                  "score": null,
+                  "coordinate": {
+                    "x": 47.516031,
+                    "y": 8.646608,
+                    "type": "WGS84"
+                  },
+                  "distance": null,
+                  "name": "Pfungen",
+                  "id": "8506042"
+                },
+                "departure": "2017-12-18T20:15:00+0100",
+                "realtimeAvailability": null,
+                "prognosis": {
+                  "arrival": null,
+                  "capacity2nd": null,
+                  "departure": null,
+                  "platform": null,
+                  "capacity1st": null
+                },
+                "platform": null
+              },
+              {
+                "arrivalTimestamp": 1513624620,
+                "delay": null,
+                "arrival": "2017-12-18T20:17:00+0100",
+                "departureTimestamp": 1513624620,
+                "station": {
+                  "score": null,
+                  "coordinate": {
+                    "x": 47.506431,
+                    "y": 8.680905,
+                    "type": "WGS84"
+                  },
+                  "distance": null,
+                  "name": "Winterthur Wülflingen",
+                  "id": "8506043"
+                },
+                "location": {
+                  "score": null,
+                  "coordinate": {
+                    "x": 47.506431,
+                    "y": 8.680905,
+                    "type": "WGS84"
+                  },
+                  "distance": null,
+                  "name": "Winterthur Wülflingen",
+                  "id": "8506043"
+                },
+                "departure": "2017-12-18T20:17:00+0100",
+                "realtimeAvailability": null,
+                "prognosis": {
+                  "arrival": null,
+                  "capacity2nd": null,
+                  "departure": null,
+                  "platform": null,
+                  "capacity1st": null
+                },
+                "platform": null
+              },
+              {
+                "arrivalTimestamp": 1513624860,
+                "delay": null,
+                "arrival": "2017-12-18T20:21:00+0100",
+                "departureTimestamp": 1513624860,
+                "station": {
+                  "score": null,
+                  "coordinate": {
+                    "x": 47.489805,
+                    "y": 8.709288,
+                    "type": "WGS84"
+                  },
+                  "distance": null,
+                  "name": "Winterthur Töss",
+                  "id": "8506044"
+                },
+                "location": {
+                  "score": null,
+                  "coordinate": {
+                    "x": 47.489805,
+                    "y": 8.709288,
+                    "type": "WGS84"
+                  },
+                  "distance": null,
+                  "name": "Winterthur Töss",
+                  "id": "8506044"
+                },
+                "departure": "2017-12-18T20:21:00+0100",
+                "realtimeAvailability": null,
+                "prognosis": {
+                  "arrival": null,
+                  "capacity2nd": null,
+                  "departure": null,
+                  "platform": null,
+                  "capacity1st": null
+                },
+                "platform": null
+              },
+              {
+                "arrivalTimestamp": 1513625040,
+                "delay": null,
+                "arrival": "2017-12-18T20:24:00+0100",
+                "departureTimestamp": null,
+                "station": {
+                  "score": null,
+                  "coordinate": {
+                    "x": 47.500332,
+                    "y": 8.723795,
+                    "type": "WGS84"
+                  },
+                  "distance": null,
+                  "name": "Winterthur",
+                  "id": "8506000"
+                },
+                "location": {
+                  "score": null,
+                  "coordinate": {
+                    "x": 47.500332,
+                    "y": 8.723795,
+                    "type": "WGS84"
+                  },
+                  "distance": null,
+                  "name": "Winterthur",
+                  "id": "8506000"
+                },
+                "departure": null,
+                "realtimeAvailability": null,
+                "prognosis": {
+                  "arrival": null,
+                  "capacity2nd": null,
+                  "departure": null,
+                  "platform": null,
+                  "capacity1st": null
+                },
+                "platform": "9"
+              }
+            ],
+            "capacity2nd": null,
+            "categoryCode": null,
+            "to": "Winterthur",
+            "category": "S",
+            "subcategory": null,
+            "operator": "THURBO",
+            "capacity1st": null
+          },
+          "arrival": {
+            "arrivalTimestamp": 1513625040,
+            "delay": null,
+            "arrival": "2017-12-18T20:24:00+0100",
+            "departureTimestamp": null,
+            "station": {
+              "score": null,
+              "coordinate": {
+                "x": 47.500332,
+                "y": 8.723795,
+                "type": "WGS84"
+              },
+              "distance": null,
+              "name": "Winterthur",
+              "id": "8506000"
+            },
+            "location": {
+              "score": null,
+              "coordinate": {
+                "x": 47.500332,
+                "y": 8.723795,
+                "type": "WGS84"
+              },
+              "distance": null,
+              "name": "Winterthur",
+              "id": "8506000"
+            },
+            "departure": null,
+            "realtimeAvailability": null,
+            "prognosis": {
+              "arrival": null,
+              "capacity2nd": null,
+              "departure": null,
+              "platform": null,
+              "capacity1st": null
+            },
+            "platform": "9"
+          },
+          "departure": {
+            "arrivalTimestamp": 1513623900,
+            "delay": null,
+            "arrival": "2017-12-18T20:05:00+0100",
+            "departureTimestamp": 1513623900,
+            "station": {
+              "score": null,
+              "coordinate": {
+                "x": 47.523939,
+                "y": 8.536186,
+                "type": "WGS84"
+              },
+              "distance": null,
+              "name": "Bülach",
+              "id": "8503400"
+            },
+            "location": {
+              "score": null,
+              "coordinate": {
+                "x": 47.523939,
+                "y": 8.536186,
+                "type": "WGS84"
+              },
+              "distance": null,
+              "name": "Bülach",
+              "id": "8503400"
+            },
+            "departure": "2017-12-18T20:05:00+0100",
+            "realtimeAvailability": null,
+            "prognosis": {
+              "arrival": null,
+              "capacity2nd": null,
+              "departure": null,
+              "platform": null,
+              "capacity1st": null
+            },
+            "platform": "6"
+          },
+          "walk": null
+        }
+      ],
+      "products": [
+        "531",
+        "S41"
+      ],
+      "capacity1st": null
+    },
+    {
+      "duration": "00d00:33:00",
+      "transfers": 1,
+      "service": null,
+      "capacity2nd": null,
+      "from": {
+        "arrivalTimestamp": null,
+        "delay": null,
+        "arrival": null,
+        "departureTimestamp": 1513624860,
+        "station": {
+          "score": null,
+          "coordinate": {
+            "x": 47.500855,
+            "y": 8.544987,
+            "type": "WGS84"
+          },
+          "distance": null,
+          "name": "Bachenbülach, Schmiede",
+          "id": "8573206"
+        },
+        "location": {
+          "score": null,
+          "coordinate": {
+            "x": 47.500855,
+            "y": 8.544987,
+            "type": "WGS84"
+          },
+          "distance": null,
+          "name": "Bachenbülach, Schmiede",
+          "id": "8573206"
+        },
+        "departure": "2017-12-18T20:21:00+0100",
+        "realtimeAvailability": null,
+        "prognosis": {
+          "arrival": null,
+          "capacity2nd": null,
+          "departure": null,
+          "platform": null,
+          "capacity1st": null
+        },
+        "platform": null
+      },
+      "to": {
+        "arrivalTimestamp": 1513626840,
+        "delay": null,
+        "arrival": "2017-12-18T20:54:00+0100",
+        "departureTimestamp": null,
+        "station": {
+          "score": null,
+          "coordinate": {
+            "x": 47.500332,
+            "y": 8.723795,
+            "type": "WGS84"
+          },
+          "distance": null,
+          "name": "Winterthur",
+          "id": "8506000"
+        },
+        "location": {
+          "score": null,
+          "coordinate": {
+            "x": 47.500332,
+            "y": 8.723795,
+            "type": "WGS84"
+          },
+          "distance": null,
+          "name": "Winterthur",
+          "id": "8506000"
+        },
+        "departure": null,
+        "realtimeAvailability": null,
+        "prognosis": {
+          "arrival": null,
+          "capacity2nd": null,
+          "departure": null,
+          "platform": null,
+          "capacity1st": null
+        },
+        "platform": "4"
+      },
+      "sections": [
+        {
+          "journey": {
+            "number": "531",
+            "name": "BUS 1506",
+            "passList": [
+              {
+                "arrivalTimestamp": null,
+                "delay": null,
+                "arrival": null,
+                "departureTimestamp": 1513624860,
+                "station": {
+                  "score": null,
+                  "coordinate": {
+                    "x": 47.500855,
+                    "y": 8.544987,
+                    "type": "WGS84"
+                  },
+                  "distance": null,
+                  "name": "Bachenbülach, Schmiede",
+                  "id": "8573206"
+                },
+                "location": {
+                  "score": null,
+                  "coordinate": {
+                    "x": 47.500855,
+                    "y": 8.544987,
+                    "type": "WGS84"
+                  },
+                  "distance": null,
+                  "name": "Bachenbülach, Schmiede",
+                  "id": "8573206"
+                },
+                "departure": "2017-12-18T20:21:00+0100",
+                "realtimeAvailability": null,
+                "prognosis": {
+                  "arrival": null,
+                  "capacity2nd": null,
+                  "departure": null,
+                  "platform": null,
+                  "capacity1st": null
+                },
+                "platform": null
+              },
+              {
+                "arrivalTimestamp": 1513624980,
+                "delay": null,
+                "arrival": "2017-12-18T20:23:00+0100",
+                "departureTimestamp": 1513624980,
+                "station": {
+                  "score": null,
+                  "coordinate": {
+                    "x": 47.505254,
+                    "y": 8.545968,
+                    "type": "WGS84"
+                  },
+                  "distance": null,
+                  "name": "Bachenbülach, alte Post",
+                  "id": "8503781"
+                },
+                "location": {
+                  "score": null,
+                  "coordinate": {
+                    "x": 47.505254,
+                    "y": 8.545968,
+                    "type": "WGS84"
+                  },
+                  "distance": null,
+                  "name": "Bachenbülach, alte Post",
+                  "id": "8503781"
+                },
+                "departure": "2017-12-18T20:23:00+0100",
+                "realtimeAvailability": null,
+                "prognosis": {
+                  "arrival": null,
+                  "capacity2nd": null,
+                  "departure": null,
+                  "platform": null,
+                  "capacity1st": null
+                },
+                "platform": null
+              },
+              {
+                "arrivalTimestamp": 1513624980,
+                "delay": null,
+                "arrival": "2017-12-18T20:23:00+0100",
+                "departureTimestamp": 1513624980,
+                "station": {
+                  "score": null,
+                  "coordinate": {
+                    "x": 47.5099,
+                    "y": 8.544538,
+                    "type": "WGS84"
+                  },
+                  "distance": null,
+                  "name": "Bülach, Cholplatz",
+                  "id": "8582739"
+                },
+                "location": {
+                  "score": null,
+                  "coordinate": {
+                    "x": 47.5099,
+                    "y": 8.544538,
+                    "type": "WGS84"
+                  },
+                  "distance": null,
+                  "name": "Bülach, Cholplatz",
+                  "id": "8582739"
+                },
+                "departure": "2017-12-18T20:23:00+0100",
+                "realtimeAvailability": null,
+                "prognosis": {
+                  "arrival": null,
+                  "capacity2nd": null,
+                  "departure": null,
+                  "platform": null,
+                  "capacity1st": null
+                },
+                "platform": null
+              },
+              {
+                "arrivalTimestamp": 1513625040,
+                "delay": null,
+                "arrival": "2017-12-18T20:24:00+0100",
+                "departureTimestamp": 1513625040,
+                "station": {
+                  "score": null,
+                  "coordinate": {
+                    "x": 47.512473,
+                    "y": 8.543463,
+                    "type": "WGS84"
+                  },
+                  "distance": null,
+                  "name": "Bülach, Mettmenriet",
+                  "id": "8503772"
+                },
+                "location": {
+                  "score": null,
+                  "coordinate": {
+                    "x": 47.512473,
+                    "y": 8.543463,
+                    "type": "WGS84"
+                  },
+                  "distance": null,
+                  "name": "Bülach, Mettmenriet",
+                  "id": "8503772"
+                },
+                "departure": "2017-12-18T20:24:00+0100",
+                "realtimeAvailability": null,
+                "prognosis": {
+                  "arrival": null,
+                  "capacity2nd": null,
+                  "departure": null,
+                  "platform": null,
+                  "capacity1st": null
+                },
+                "platform": null
+              },
+              {
+                "arrivalTimestamp": 1513625160,
+                "delay": null,
+                "arrival": "2017-12-18T20:26:00+0100",
+                "departureTimestamp": 1513625160,
+                "station": {
+                  "score": null,
+                  "coordinate": {
+                    "x": 47.515861,
+                    "y": 8.541874,
+                    "type": "WGS84"
+                  },
+                  "distance": null,
+                  "name": "Bülach, Untertor",
+                  "id": "8503850"
+                },
+                "location": {
+                  "score": null,
+                  "coordinate": {
+                    "x": 47.515861,
+                    "y": 8.541874,
+                    "type": "WGS84"
+                  },
+                  "distance": null,
+                  "name": "Bülach, Untertor",
+                  "id": "8503850"
+                },
+                "departure": "2017-12-18T20:26:00+0100",
+                "realtimeAvailability": null,
+                "prognosis": {
+                  "arrival": null,
+                  "capacity2nd": null,
+                  "departure": null,
+                  "platform": null,
+                  "capacity1st": null
+                },
+                "platform": null
+              },
+              {
+                "arrivalTimestamp": 1513625280,
+                "delay": null,
+                "arrival": "2017-12-18T20:28:00+0100",
+                "departureTimestamp": 1513625280,
+                "station": {
+                  "score": null,
+                  "coordinate": {
+                    "x": 47.520605,
+                    "y": 8.539649,
+                    "type": "WGS84"
+                  },
+                  "distance": null,
+                  "name": "Bülach, Sonnenhof",
+                  "id": "8573257"
+                },
+                "location": {
+                  "score": null,
+                  "coordinate": {
+                    "x": 47.520605,
+                    "y": 8.539649,
+                    "type": "WGS84"
+                  },
+                  "distance": null,
+                  "name": "Bülach, Sonnenhof",
+                  "id": "8573257"
+                },
+                "departure": "2017-12-18T20:28:00+0100",
+                "realtimeAvailability": null,
+                "prognosis": {
+                  "arrival": null,
+                  "capacity2nd": null,
+                  "departure": null,
+                  "platform": null,
+                  "capacity1st": null
+                },
+                "platform": null
+              },
+              {
+                "arrivalTimestamp": 1513625400,
+                "delay": null,
+                "arrival": "2017-12-18T20:30:00+0100",
+                "departureTimestamp": null,
+                "station": {
+                  "score": null,
+                  "coordinate": {
+                    "x": 47.522647,
+                    "y": 8.537699,
+                    "type": "WGS84"
+                  },
+                  "distance": null,
+                  "name": "Bülach, Bahnhof",
+                  "id": "8503702"
+                },
+                "location": {
+                  "score": null,
+                  "coordinate": {
+                    "x": 47.522647,
+                    "y": 8.537699,
+                    "type": "WGS84"
+                  },
+                  "distance": null,
+                  "name": "Bülach, Bahnhof",
+                  "id": "8503702"
+                },
+                "departure": null,
+                "realtimeAvailability": null,
+                "prognosis": {
+                  "arrival": null,
+                  "capacity2nd": null,
+                  "departure": null,
+                  "platform": null,
+                  "capacity1st": null
+                },
+                "platform": null
+              }
+            ],
+            "capacity2nd": null,
+            "categoryCode": null,
+            "to": "Bülach, Bahnhof",
+            "category": "BUS",
+            "subcategory": null,
+            "operator": "PAG",
+            "capacity1st": null
+          },
+          "arrival": {
+            "arrivalTimestamp": 1513625400,
+            "delay": null,
+            "arrival": "2017-12-18T20:30:00+0100",
+            "departureTimestamp": null,
+            "station": {
+              "score": null,
+              "coordinate": {
+                "x": 47.522647,
+                "y": 8.537699,
+                "type": "WGS84"
+              },
+              "distance": null,
+              "name": "Bülach, Bahnhof",
+              "id": "8503702"
+            },
+            "location": {
+              "score": null,
+              "coordinate": {
+                "x": 47.522647,
+                "y": 8.537699,
+                "type": "WGS84"
+              },
+              "distance": null,
+              "name": "Bülach, Bahnhof",
+              "id": "8503702"
+            },
+            "departure": null,
+            "realtimeAvailability": null,
+            "prognosis": {
+              "arrival": null,
+              "capacity2nd": null,
+              "departure": null,
+              "platform": null,
+              "capacity1st": null
+            },
+            "platform": null
+          },
+          "departure": {
+            "arrivalTimestamp": null,
+            "delay": null,
+            "arrival": null,
+            "departureTimestamp": 1513624860,
+            "station": {
+              "score": null,
+              "coordinate": {
+                "x": 47.500855,
+                "y": 8.544987,
+                "type": "WGS84"
+              },
+              "distance": null,
+              "name": "Bachenbülach, Schmiede",
+              "id": "8573206"
+            },
+            "location": {
+              "score": null,
+              "coordinate": {
+                "x": 47.500855,
+                "y": 8.544987,
+                "type": "WGS84"
+              },
+              "distance": null,
+              "name": "Bachenbülach, Schmiede",
+              "id": "8573206"
+            },
+            "departure": "2017-12-18T20:21:00+0100",
+            "realtimeAvailability": null,
+            "prognosis": {
+              "arrival": null,
+              "capacity2nd": null,
+              "departure": null,
+              "platform": null,
+              "capacity1st": null
+            },
+            "platform": null
+          },
+          "walk": null
+        },
+        {
+          "journey": null,
+          "arrival": {
+            "arrivalTimestamp": 1513625700,
+            "delay": null,
+            "arrival": "2017-12-18T20:35:00+0100",
+            "departureTimestamp": null,
+            "station": {
+              "score": null,
+              "coordinate": {
+                "x": 47.523939,
+                "y": 8.536186,
+                "type": "WGS84"
+              },
+              "distance": null,
+              "name": "Bülach",
+              "id": "8503400"
+            },
+            "location": {
+              "score": null,
+              "coordinate": {
+                "x": 47.523939,
+                "y": 8.536186,
+                "type": "WGS84"
+              },
+              "distance": null,
+              "name": "Bülach",
+              "id": "8503400"
+            },
+            "departure": null,
+            "realtimeAvailability": null,
+            "prognosis": {
+              "arrival": null,
+              "capacity2nd": null,
+              "departure": null,
+              "platform": null,
+              "capacity1st": null
+            },
+            "platform": null
+          },
+          "departure": {
+            "arrivalTimestamp": 1513625400,
+            "delay": null,
+            "arrival": "2017-12-18T20:30:00+0100",
+            "departureTimestamp": 1513625400,
+            "station": {
+              "score": null,
+              "coordinate": {
+                "x": 47.522647,
+                "y": 8.537699,
+                "type": "WGS84"
+              },
+              "distance": null,
+              "name": "Bülach, Bahnhof",
+              "id": "8503702"
+            },
+            "location": {
+              "score": null,
+              "coordinate": {
+                "x": 47.522647,
+                "y": 8.537699,
+                "type": "WGS84"
+              },
+              "distance": null,
+              "name": "Bülach, Bahnhof",
+              "id": "8503702"
+            },
+            "departure": "2017-12-18T20:30:00+0100",
+            "realtimeAvailability": null,
+            "prognosis": {
+              "arrival": null,
+              "capacity2nd": null,
+              "departure": null,
+              "platform": null,
+              "capacity1st": null
+            },
+            "platform": null
+          },
+          "walk": {
+            "duration": 300
+          }
+        },
+        {
+          "journey": {
+            "number": "41",
+            "name": "S41 19879",
+            "passList": [
+              {
+                "arrivalTimestamp": 1513625700,
+                "delay": null,
+                "arrival": "2017-12-18T20:35:00+0100",
+                "departureTimestamp": 1513625700,
+                "station": {
+                  "score": null,
+                  "coordinate": {
+                    "x": 47.523939,
+                    "y": 8.536186,
+                    "type": "WGS84"
+                  },
+                  "distance": null,
+                  "name": "Bülach",
+                  "id": "8503400"
+                },
+                "location": {
+                  "score": null,
+                  "coordinate": {
+                    "x": 47.523939,
+                    "y": 8.536186,
+                    "type": "WGS84"
+                  },
+                  "distance": null,
+                  "name": "Bülach",
+                  "id": "8503400"
+                },
+                "departure": "2017-12-18T20:35:00+0100",
+                "realtimeAvailability": null,
+                "prognosis": {
+                  "arrival": null,
+                  "capacity2nd": null,
+                  "departure": null,
+                  "platform": null,
+                  "capacity1st": null
+                },
+                "platform": "4"
+              },
+              {
+                "arrivalTimestamp": 1513625880,
+                "delay": null,
+                "arrival": "2017-12-18T20:38:00+0100",
+                "departureTimestamp": 1513625940,
+                "station": {
+                  "score": null,
+                  "coordinate": {
+                    "x": 47.520586,
+                    "y": 8.587052,
+                    "type": "WGS84"
+                  },
+                  "distance": null,
+                  "name": "Embrach-Rorbas",
+                  "id": "8506041"
+                },
+                "location": {
+                  "score": null,
+                  "coordinate": {
+                    "x": 47.520586,
+                    "y": 8.587052,
+                    "type": "WGS84"
+                  },
+                  "distance": null,
+                  "name": "Embrach-Rorbas",
+                  "id": "8506041"
+                },
+                "departure": "2017-12-18T20:39:00+0100",
+                "realtimeAvailability": null,
+                "prognosis": {
+                  "arrival": null,
+                  "capacity2nd": null,
+                  "departure": null,
+                  "platform": null,
+                  "capacity1st": null
+                },
+                "platform": null
+              },
+              {
+                "arrivalTimestamp": 1513626180,
+                "delay": null,
+                "arrival": "2017-12-18T20:43:00+0100",
+                "departureTimestamp": 1513626300,
+                "station": {
+                  "score": null,
+                  "coordinate": {
+                    "x": 47.516031,
+                    "y": 8.646608,
+                    "type": "WGS84"
+                  },
+                  "distance": null,
+                  "name": "Pfungen",
+                  "id": "8506042"
+                },
+                "location": {
+                  "score": null,
+                  "coordinate": {
+                    "x": 47.516031,
+                    "y": 8.646608,
+                    "type": "WGS84"
+                  },
+                  "distance": null,
+                  "name": "Pfungen",
+                  "id": "8506042"
+                },
+                "departure": "2017-12-18T20:45:00+0100",
+                "realtimeAvailability": null,
+                "prognosis": {
+                  "arrival": null,
+                  "capacity2nd": null,
+                  "departure": null,
+                  "platform": null,
+                  "capacity1st": null
+                },
+                "platform": null
+              },
+              {
+                "arrivalTimestamp": 1513626420,
+                "delay": null,
+                "arrival": "2017-12-18T20:47:00+0100",
+                "departureTimestamp": 1513626420,
+                "station": {
+                  "score": null,
+                  "coordinate": {
+                    "x": 47.506431,
+                    "y": 8.680905,
+                    "type": "WGS84"
+                  },
+                  "distance": null,
+                  "name": "Winterthur Wülflingen",
+                  "id": "8506043"
+                },
+                "location": {
+                  "score": null,
+                  "coordinate": {
+                    "x": 47.506431,
+                    "y": 8.680905,
+                    "type": "WGS84"
+                  },
+                  "distance": null,
+                  "name": "Winterthur Wülflingen",
+                  "id": "8506043"
+                },
+                "departure": "2017-12-18T20:47:00+0100",
+                "realtimeAvailability": null,
+                "prognosis": {
+                  "arrival": null,
+                  "capacity2nd": null,
+                  "departure": null,
+                  "platform": null,
+                  "capacity1st": null
+                },
+                "platform": null
+              },
+              {
+                "arrivalTimestamp": 1513626660,
+                "delay": null,
+                "arrival": "2017-12-18T20:51:00+0100",
+                "departureTimestamp": 1513626660,
+                "station": {
+                  "score": null,
+                  "coordinate": {
+                    "x": 47.489805,
+                    "y": 8.709288,
+                    "type": "WGS84"
+                  },
+                  "distance": null,
+                  "name": "Winterthur Töss",
+                  "id": "8506044"
+                },
+                "location": {
+                  "score": null,
+                  "coordinate": {
+                    "x": 47.489805,
+                    "y": 8.709288,
+                    "type": "WGS84"
+                  },
+                  "distance": null,
+                  "name": "Winterthur Töss",
+                  "id": "8506044"
+                },
+                "departure": "2017-12-18T20:51:00+0100",
+                "realtimeAvailability": null,
+                "prognosis": {
+                  "arrival": null,
+                  "capacity2nd": null,
+                  "departure": null,
+                  "platform": null,
+                  "capacity1st": null
+                },
+                "platform": null
+              },
+              {
+                "arrivalTimestamp": 1513626840,
+                "delay": null,
+                "arrival": "2017-12-18T20:54:00+0100",
+                "departureTimestamp": null,
+                "station": {
+                  "score": null,
+                  "coordinate": {
+                    "x": 47.500332,
+                    "y": 8.723795,
+                    "type": "WGS84"
+                  },
+                  "distance": null,
+                  "name": "Winterthur",
+                  "id": "8506000"
+                },
+                "location": {
+                  "score": null,
+                  "coordinate": {
+                    "x": 47.500332,
+                    "y": 8.723795,
+                    "type": "WGS84"
+                  },
+                  "distance": null,
+                  "name": "Winterthur",
+                  "id": "8506000"
+                },
+                "departure": null,
+                "realtimeAvailability": null,
+                "prognosis": {
+                  "arrival": null,
+                  "capacity2nd": null,
+                  "departure": null,
+                  "platform": null,
+                  "capacity1st": null
+                },
+                "platform": "9"
+              }
+            ],
+            "capacity2nd": null,
+            "categoryCode": null,
+            "to": "Winterthur",
+            "category": "S",
+            "subcategory": null,
+            "operator": "THURBO",
+            "capacity1st": null
+          },
+          "arrival": {
+            "arrivalTimestamp": 1513626840,
+            "delay": null,
+            "arrival": "2017-12-18T20:54:00+0100",
+            "departureTimestamp": null,
+            "station": {
+              "score": null,
+              "coordinate": {
+                "x": 47.500332,
+                "y": 8.723795,
+                "type": "WGS84"
+              },
+              "distance": null,
+              "name": "Winterthur",
+              "id": "8506000"
+            },
+            "location": {
+              "score": null,
+              "coordinate": {
+                "x": 47.500332,
+                "y": 8.723795,
+                "type": "WGS84"
+              },
+              "distance": null,
+              "name": "Winterthur",
+              "id": "8506000"
+            },
+            "departure": null,
+            "realtimeAvailability": null,
+            "prognosis": {
+              "arrival": null,
+              "capacity2nd": null,
+              "departure": null,
+              "platform": null,
+              "capacity1st": null
+            },
+            "platform": "9"
+          },
+          "departure": {
+            "arrivalTimestamp": 1513625700,
+            "delay": null,
+            "arrival": "2017-12-18T20:35:00+0100",
+            "departureTimestamp": 1513625700,
+            "station": {
+              "score": null,
+              "coordinate": {
+                "x": 47.523939,
+                "y": 8.536186,
+                "type": "WGS84"
+              },
+              "distance": null,
+              "name": "Bülach",
+              "id": "8503400"
+            },
+            "location": {
+              "score": null,
+              "coordinate": {
+                "x": 47.523939,
+                "y": 8.536186,
+                "type": "WGS84"
+              },
+              "distance": null,
+              "name": "Bülach",
+              "id": "8503400"
+            },
+            "departure": "2017-12-18T20:35:00+0100",
+            "realtimeAvailability": null,
+            "prognosis": {
+              "arrival": null,
+              "capacity2nd": null,
+              "departure": null,
+              "platform": null,
+              "capacity1st": null
+            },
+            "platform": "4"
+          },
+          "walk": null
+        }
+      ],
+      "products": [
+        "531",
+        "S41"
+      ],
+      "capacity1st": null
+    }
+  ]
+}
