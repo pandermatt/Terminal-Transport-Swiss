@@ -17,7 +17,6 @@ public class JsonParser {
     private String fetchJson(String from, String to) {
         try {
             URL url = new URL(TRANSPORT_OPENDATA + "?from=" + URLEncoder.encode(from, "UTF-8") + "&to=" + URLEncoder.encode(to, "UTF-8"));
-            System.out.println(url);
             URLConnection connection = url.openConnection();
             BufferedReader in = new BufferedReader(new InputStreamReader(connection.getInputStream()));
 
@@ -53,24 +52,41 @@ public class JsonParser {
                 for (int j = 0; j < sections.length(); j++) {
                     if (Objects.equals(sections.getJSONObject(j).get("journey"), null))
                         continue;
+
                     JSONObject currentJourney = sections.getJSONObject(j).getJSONObject("journey");
                     Journey journey = new Journey(currentJourney.getString("number") + " (" + currentJourney.getString("name") + ")");
                     JSONArray passList = currentJourney.getJSONArray("passList");
+
+
                     for (int k = 0; k < passList.length(); k++) {
-                        journey.addStations(new Station(passList.getJSONObject(k).getJSONObject("station").getString("name")));
+                        Long time = 0L;
+                        if (!Objects.equals(passList.getJSONObject(k).get("arrivalTimestamp"), null)) {
+                            time = passList.getJSONObject(k).getLong("arrivalTimestamp");
+                        }
+                        String name = passList.getJSONObject(k).getJSONObject("station").getString("name");
+                        journey.addStations(new Station(name, time));
                     }
                     connection.addJourneys(journey);
                 }
+
+                JSONArray products = currentConnection.getJSONArray("products");
+                for (int j = 0; j < products.length(); j++) {
+                    connection.addLine(products.getString(j));
+                }
+
             }
         } catch (JSONException e) {
             e.printStackTrace();
         }
+
+        //TODO
         connection.print();
 
         return connection;
     }
 
     public static void main(String[] args) {
-        (new JsonParser()).buildConnection("Bachenbülach","Winterthur");
+        //TODO
+        (new JsonParser()).buildConnection("Bachenbulach", "Hallenstadion");
     }
 }
