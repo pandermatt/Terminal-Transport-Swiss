@@ -28,32 +28,20 @@ public class Connection {
     }
 
     public void print() {
-        System.out.println("------------------------------------------------------");
-        System.out.println(from + " -> " + to + " \t(" + duration + ")");
-        System.out.print("Transfers " + transfers + "\t\t\t Lines: ");
-        System.out.print(getLines());
-        System.out.println("");
+        printSummary();
 
         for (Journey j : journeys) {
-            System.out.println("------------------------");
-            System.out.println(j.getName());
-
-            System.out.println("---------------");
+            SystemOut.centerPrint(j.getName(), 42);
             for (Station s : j.getStations()) {
-                System.out.println(s.getName() + " " + s.getPlatform());
+                System.out.format("%-30s %2s %8s %n",
+                        s.getName(), s.getPlatform(), s.getArrival());
             }
         }
-        System.out.println("------------------------------------------------------");
+        SystemOut.centerPrint("", 42);
     }
 
-    public static void main(String[] args) {
-        String from = "Bern";
-        String to = "Iberg";
-        if (args.length != 0) {
-            from = args[0];
-            to = args[1];
-        }
-        Connection connection = (new JsonParser()).buildConnection(from, to);
-        connection.print();
+    public void printSummary() {
+        System.out.format("%-31s (%s) %n", from + " -> " + to, duration);
+        System.out.format("Transfers %d %30s %n", transfers, "Lines: " + getLines());
     }
 }

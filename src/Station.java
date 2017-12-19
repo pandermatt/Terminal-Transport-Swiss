@@ -1,16 +1,16 @@
-import java.sql.Date;
-import java.sql.Timestamp;
+import java.text.DateFormat;
 import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.TimeZone;
 
 public class Station {
     private final String platform;
     private final String name;
-    private final Timestamp arrival;
+    private final Date arrival;
 
-    public Station(String name, Long arrival, String platform) {
+    public Station(String name, Date arrival, String platform) {
         this.name = name;
-        this.arrival = new Timestamp(arrival);
+        this.arrival = arrival;
         this.platform = platform;
     }
 
@@ -19,14 +19,14 @@ public class Station {
     }
 
     public String getPlatform() {
-        return platform;
+        return platform != null ? platform : "";
     }
 
     public String getArrival() {
-        Date date = new Date(arrival.getTime());
-        SimpleDateFormat sdf = new SimpleDateFormat("hh:mm:ss");
-        //TODO
-        sdf.setTimeZone(TimeZone.getTimeZone("GTM"));
-        return sdf.format(date);
+        if (arrival == null)
+            return "";
+
+        DateFormat dateFormat = new SimpleDateFormat("HH:mm");
+        return dateFormat.format(arrival);
     }
 }

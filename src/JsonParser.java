@@ -8,6 +8,11 @@ import java.io.InputStreamReader;
 import java.net.URL;
 import java.net.URLConnection;
 import java.net.URLEncoder;
+import java.text.DateFormat;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.ArrayList;
+import java.util.Date;
 import java.util.Objects;
 
 
@@ -34,8 +39,9 @@ public class JsonParser {
         return null;
     }
 
-    public Connection buildConnection(String fromStation, String toStation) {
+    public ArrayList<Connection> buildConnection(String fromStation, String toStation) {
         Connection connection = null;
+        ArrayList<Connection> connectionList = new ArrayList<>();
         try {
             JSONObject jsonObj = new JSONObject(fetchJson(fromStation, toStation));
             JSONArray connections = jsonObj.getJSONArray("connections");
@@ -59,16 +65,20 @@ public class JsonParser {
 
 
                     for (int k = 0; k < passList.length(); k++) {
-                        Long time = 0L;
-                        if (!Objects.equals(passList.getJSONObject(k).get("arrivalTimestamp"), null)) {
-                            time = passList.getJSONObject(k).getLong("arrivalTimestamp");
+                        Date date = null;
+                        if (!Objects.equals(passList.getJSONObject(k).get("arrival"), null)) {
+                            date = getDate(passList, k, "arrival");
+                        } else if(!Objects.equals(passList.getJSONObject(k).get("departure"), null)){
+                            date = getDate(passList, k, "departure");
+
                         }
                         String name = passList.getJSONObject(k).getJSONObject("station").getString("name");
-                        String platform = "none";
+                        String platform = null;
                         if (!Objects.equals(passList.getJSONObject(k).get("platform"), null)) {
                             platform = passList.getJSONObject(k).getString("platform");
                         }
-                        journey.addStations(new Station(name, time, platform));
+
+                        journey.addStations(new Station(name, date, platform));
                     }
                     connection.addJourneys(journey);
                 }
@@ -78,11 +88,23 @@ public class JsonParser {
                     connection.addLine(products.getString(j));
                 }
 
+                connectionList.add(connection);
+
             }
         } catch (JSONException e) {
             e.printStackTrace();
+        } catch (ParseException e) {
+            e.printStackTrace();
         }
 
-        return connection;
+        return connectionList;
+    }
+
+    private Date getDate(JSONArray passList, int k, String stringName) throws JSONException, ParseException {
+        Date result;
+        String time = passList.getJSONObject(k).getString(stringName);
+        DateFormat df = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ssZ");
+        result = df.parse(time);
+        return result;
     }
 }
