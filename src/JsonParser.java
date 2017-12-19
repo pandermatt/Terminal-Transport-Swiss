@@ -19,7 +19,7 @@ import java.util.Objects;
 public class JsonParser {
     private static final String TRANSPORT_OPENDATA = "http://transport.opendata.ch/v1/connections";
 
-    private String fetchJson(String from, String to) {
+    private static String fetchJson(String from, String to) {
         try {
             URL url = new URL(TRANSPORT_OPENDATA + "?from=" + URLEncoder.encode(from, "UTF-8") + "&to=" +
                     URLEncoder.encode(to, "UTF-8"));
@@ -40,7 +40,7 @@ public class JsonParser {
         return null;
     }
 
-    public ArrayList<Connection> buildConnection(String fromStation, String toStation) {
+    public static ArrayList<Connection> buildConnection(String fromStation, String toStation) {
         Connection connection = null;
         ArrayList<Connection> connectionList = new ArrayList<>();
         try {
@@ -110,12 +110,12 @@ public class JsonParser {
         return connectionList;
     }
 
-    private Date getDate(JSONArray passList, int k, String stringName) throws JSONException, ParseException {
+    private static Date getDate(JSONArray passList, int k, String stringName) throws JSONException, ParseException {
         String time = passList.getJSONObject(k).getString(stringName);
         return getDateFromString(time);
     }
 
-    private Date getDateFromString(String time) throws ParseException {
+    private static Date getDateFromString(String time) throws ParseException {
         Date result;
         DateFormat df = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ssZ");
         result = df.parse(time);

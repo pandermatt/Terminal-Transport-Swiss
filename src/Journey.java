@@ -19,4 +19,8 @@ public class Journey {
     public ArrayList<Station> getStations() {
         return stations;
     }
+
+    public Station getStations(int index) {
+        return stations.get(index);
+    }
 }

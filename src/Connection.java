@@ -69,4 +69,12 @@ public class Connection {
         DateFormat dateFormat = new SimpleDateFormat("HH:mm");
         return dateFormat.format(departure);
     }
+
+    public Journey getJourney(int index) {
+        return journeys.get(index);
+    }
+
+    public int getTransfers() {
+        return transfers;
+    }
 }

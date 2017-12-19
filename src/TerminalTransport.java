@@ -22,7 +22,7 @@ public class TerminalTransport {
             to = args[1];
         }
         System.out.println("Calculating...");
-        ArrayList<Connection> connections = (new JsonParser()).buildConnection(from, to);
+        ArrayList<Connection> connections = JsonParser.buildConnection(from, to);
 
 
         printMenu(connections, false);
