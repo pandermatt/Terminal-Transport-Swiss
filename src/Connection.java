@@ -23,13 +23,15 @@ public class Connection {
         lines.add(line);
     }
 
+    public String getLines() {
+        return String.join(", ", lines);
+    }
+
     public void print() {
         System.out.println("------------------------------------------------------");
         System.out.println(from + " -> " + to + " \t(" + duration + ")");
         System.out.print("Transfers " + transfers + "\t\t\t Lines: ");
-        for (String l : lines) {
-            System.out.print(l + "  ");
-        }
+        System.out.print(getLines());
         System.out.println("");
 
         for (Journey j : journeys) {
@@ -38,9 +40,20 @@ public class Connection {
 
             System.out.println("---------------");
             for (Station s : j.getStations()) {
-                System.out.println(s.getName());
+                System.out.println(s.getName() + " " + s.getPlatform());
             }
         }
         System.out.println("------------------------------------------------------");
+    }
+
+    public static void main(String[] args) {
+        String from = "Bern";
+        String to = "Iberg";
+        if (args.length != 0) {
+            from = args[0];
+            to = args[1];
+        }
+        Connection connection = (new JsonParser()).buildConnection(from, to);
+        connection.print();
     }
 }

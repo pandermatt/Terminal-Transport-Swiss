@@ -4,16 +4,22 @@ import java.text.SimpleDateFormat;
 import java.util.TimeZone;
 
 public class Station {
-    private String name;
-    private Timestamp arrival;
+    private final String platform;
+    private final String name;
+    private final Timestamp arrival;
 
-    public Station(String name, Long arrival) {
+    public Station(String name, Long arrival, String platform) {
         this.name = name;
         this.arrival = new Timestamp(arrival);
+        this.platform = platform;
     }
 
     public String getName() {
         return name;
+    }
+
+    public String getPlatform() {
+        return platform;
     }
 
     public String getArrival() {

@@ -64,7 +64,11 @@ public class JsonParser {
                             time = passList.getJSONObject(k).getLong("arrivalTimestamp");
                         }
                         String name = passList.getJSONObject(k).getJSONObject("station").getString("name");
-                        journey.addStations(new Station(name, time));
+                        String platform = "none";
+                        if (!Objects.equals(passList.getJSONObject(k).get("platform"), null)) {
+                            platform = passList.getJSONObject(k).getString("platform");
+                        }
+                        journey.addStations(new Station(name, time, platform));
                     }
                     connection.addJourneys(journey);
                 }
@@ -79,14 +83,6 @@ public class JsonParser {
             e.printStackTrace();
         }
 
-        //TODO
-        connection.print();
-
         return connection;
-    }
-
-    public static void main(String[] args) {
-        //TODO
-        (new JsonParser()).buildConnection("Zurich", "Olten");
     }
 }
