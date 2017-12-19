@@ -38,7 +38,7 @@ public class Connection {
 
             System.out.println("---------------");
             for (Station s : j.getStations()) {
-                System.out.println(s.getName() + "\t " + s.getArrival());
+                System.out.println(s.getName());
             }
         }
         System.out.println("------------------------------------------------------");

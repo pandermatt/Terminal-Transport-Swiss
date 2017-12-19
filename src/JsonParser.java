@@ -87,6 +87,6 @@ public class JsonParser {
 
     public static void main(String[] args) {
         //TODO
-        (new JsonParser()).buildConnection("Bachenbulach", "Hallenstadion");
+        (new JsonParser()).buildConnection("Zurich", "Olten");
     }
 }
