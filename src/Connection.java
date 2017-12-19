@@ -1,17 +1,24 @@
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Date;
 
 public class Connection {
-    private String from;
-    private String to;
-    private String duration;
-    private int transfers;
+    private final String from;
+    private final String to;
+    private final String duration;
+    private final Date arrival;
+    private final Date departure;
+    private final int transfers;
     private ArrayList<String> lines = new ArrayList<>();
     private ArrayList<Journey> journeys = new ArrayList<>();
 
-    public Connection(String from, String to, String duration, int transfers) {
+    public Connection(String from, String to, String duration, Date departure, Date arrival, int transfers) {
         this.from = from;
         this.to = to;
         this.duration = duration;
+        this.arrival = arrival;
+        this.departure = departure;
         this.transfers = transfers;
     }
 
@@ -41,7 +48,25 @@ public class Connection {
     }
 
     public void printSummary() {
-        System.out.format("%-31s (%s) %n", from + " -> " + to, duration);
+        System.out.format("From: %-30s %s%n", from, getDeparture());
+        System.out.format("%42s%n", duration);
+        System.out.format("To:   %-30s %s%n", to, getArrival());
         System.out.format("Transfers %d %30s %n", transfers, "Lines: " + getLines());
+    }
+
+    public String getArrival() {
+        if (arrival == null)
+            return "";
+
+        DateFormat dateFormat = new SimpleDateFormat("HH:mm");
+        return dateFormat.format(arrival);
+    }
+
+    public String getDeparture() {
+        if (departure == null)
+            return "";
+
+        DateFormat dateFormat = new SimpleDateFormat("HH:mm");
+        return dateFormat.format(departure);
     }
 }

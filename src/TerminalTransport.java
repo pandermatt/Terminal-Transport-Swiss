@@ -4,19 +4,28 @@ import java.util.Scanner;
 
 public class TerminalTransport {
     public static void main(String[] args) {
-        String from = "Bachenbülach alte Post";
-        String to = "Winterthur";
+        Scanner choose = new Scanner(System.in);
+        int choiceInt;
+        String choice, from, to;
+        if (args.length != 0) {
+            from = args[0];
+            to = args[1];
+        } else {
+            System.out.print("From: ");
+            from = choose.nextLine();
+            System.out.print("To:   ");
+            to = choose.nextLine();
+        }
+        choice = "";
         if (args.length != 0) {
             from = args[0];
             to = args[1];
         }
-
+        System.out.println("Calculating...");
         ArrayList<Connection> connections = (new JsonParser()).buildConnection(from, to);
 
+
         printMenu(connections, false);
-        Scanner choose = new Scanner(System.in);
-        int choiceInt;
-        String choice;
         choice = choose.next();
         boolean invalid = false;
 
@@ -51,7 +60,7 @@ public class TerminalTransport {
             connections.get(i).printSummary();
         }
         SystemOut.centerPrint("Select one Connection:", 42);
-        if(invalid)
+        if (invalid)
             System.out.println(ConsoleColors.RED + "Invalid connection (Options: 0 to " + connections.size() + ")" + ConsoleColors.RESET);
         System.out.print("> ");
     }

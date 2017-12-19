@@ -21,7 +21,8 @@ public class JsonParser {
 
     private String fetchJson(String from, String to) {
         try {
-            URL url = new URL(TRANSPORT_OPENDATA + "?from=" + URLEncoder.encode(from, "UTF-8") + "&to=" + URLEncoder.encode(to, "UTF-8"));
+            URL url = new URL(TRANSPORT_OPENDATA + "?from=" + URLEncoder.encode(from, "UTF-8") + "&to=" +
+                    URLEncoder.encode(to, "UTF-8"));
             URLConnection connection = url.openConnection();
             BufferedReader in = new BufferedReader(new InputStreamReader(connection.getInputStream()));
 
@@ -49,38 +50,47 @@ public class JsonParser {
             for (int i = 0; i < connections.length(); i++) {
                 JSONObject currentConnection = connections.getJSONObject(i);
                 String from = currentConnection.getJSONObject("from").getJSONObject("station").getString("name");
+                String departure = currentConnection.getJSONObject("from").getString("departure");
                 String to = currentConnection.getJSONObject("to").getJSONObject("station").getString("name");
+                String arrival = currentConnection.getJSONObject("to").getString("arrival");
                 String duration = currentConnection.getString("duration");
                 int transfers = currentConnection.getInt("transfers");
-                connection = new Connection(from, to, duration.substring(3), transfers);
+                connection = new Connection(from, to, duration.substring(3), getDateFromString(departure), getDateFromString(arrival), transfers);
 
                 JSONArray sections = currentConnection.getJSONArray("sections");
                 for (int j = 0; j < sections.length(); j++) {
-                    if (Objects.equals(sections.getJSONObject(j).get("journey"), null))
-                        continue;
+                    Journey journey;
+                    if (Objects.equals(sections.getJSONObject(j).get("journey"), null)) {
+                        journey = new Journey("Walk");
+                        journey.addStations(new Station("Walk " + (sections.getJSONObject(j).getJSONObject("walk")
+                                .getInt("duration") / 60) + "'", getDateFromString(sections.getJSONObject(j)
+                                .getJSONObject("arrival").getString("arrival")), null));
+                    } else {
+                        JSONObject currentJourney = sections.getJSONObject(j).getJSONObject("journey");
+                        journey = new Journey(currentJourney.getString("number") + " (" +
+                                currentJourney.getString("name") + ")");
+                        JSONArray passList = currentJourney.getJSONArray("passList");
 
-                    JSONObject currentJourney = sections.getJSONObject(j).getJSONObject("journey");
-                    Journey journey = new Journey(currentJourney.getString("number") + " (" + currentJourney.getString("name") + ")");
-                    JSONArray passList = currentJourney.getJSONArray("passList");
 
+                        for (int k = 0; k < passList.length(); k++) {
+                            Date date = null;
+                            if (!Objects.equals(passList.getJSONObject(k).get("arrival"), null)) {
+                                date = getDate(passList, k, "arrival");
+                            } else if (!Objects.equals(passList.getJSONObject(k).get("departure"), null)) {
+                                date = getDate(passList, k, "departure");
 
-                    for (int k = 0; k < passList.length(); k++) {
-                        Date date = null;
-                        if (!Objects.equals(passList.getJSONObject(k).get("arrival"), null)) {
-                            date = getDate(passList, k, "arrival");
-                        } else if(!Objects.equals(passList.getJSONObject(k).get("departure"), null)){
-                            date = getDate(passList, k, "departure");
+                            }
+                            String name = passList.getJSONObject(k).getJSONObject("station").getString("name");
+                            String platform = null;
+                            if (!Objects.equals(passList.getJSONObject(k).get("platform"), null)) {
+                                platform = passList.getJSONObject(k).getString("platform");
+                            }
 
+                            journey.addStations(new Station(name, date, platform));
                         }
-                        String name = passList.getJSONObject(k).getJSONObject("station").getString("name");
-                        String platform = null;
-                        if (!Objects.equals(passList.getJSONObject(k).get("platform"), null)) {
-                            platform = passList.getJSONObject(k).getString("platform");
-                        }
-
-                        journey.addStations(new Station(name, date, platform));
                     }
                     connection.addJourneys(journey);
+
                 }
 
                 JSONArray products = currentConnection.getJSONArray("products");
@@ -101,8 +111,12 @@ public class JsonParser {
     }
 
     private Date getDate(JSONArray passList, int k, String stringName) throws JSONException, ParseException {
-        Date result;
         String time = passList.getJSONObject(k).getString(stringName);
+        return getDateFromString(time);
+    }
+
+    private Date getDateFromString(String time) throws ParseException {
+        Date result;
         DateFormat df = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ssZ");
         result = df.parse(time);
         return result;
